@@ -1,0 +1,243 @@
+/*
+ Theme Name:   Fashionistas Child
+ Theme URI:    http://www.doartystuff.com/fashionistas-child/
+ Description:  Fashionistas Child Theme
+ Author:       Eva Michalcakova
+ Author URI:   http://www.doartystuff.com
+ Template:     fashionistas
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  fashionistas-child
+*/
+
+
+@import url("../fashionistas/style.css");
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+
+@media only screen and (max-width: 60em) {
+	#main-navigation .sf-menu ul {
+		position: static;
+		top: 0;
+		left: 0;
+		width: 100%;
+		max-height: auto;
+		max-width: 100%;
+		overflow: visible;
+		background: transparent;
+	}
+	
+	#main-navigation > .sf-menu > ul > li {
+		float: left;
+		border: none;
+		font-size: .8em;
+	}
+	
+	.sf-menu li ul {
+		width: 20.0833333333em;
+	}
+	
+	#main-navigation:target > .nav-open,
+																																						#main-navigation:target > .nav-close,
+																																						.nav-open,
+																																						.nav-close {
+		display: none;
+	}
+	
+	#main-navigation .sf-menu > ul > li:after {
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	
+	#main-navigation li a {
+		color: #333;
+	}
+	
+	#main-navigation li:hover ul, #main-navigation li.sfHover ul {
+		top: 50px;
+		position: absolute;
+		width: 18.5em;
+	}
+	
+	#main-navigation .sf-menu ul ul ul {
+		position: absolute;
+		background-color: #333;
+		left: 16.9em !important;
+	}
+}
+
+@media only screen and (max-width: 40em) {
+	#top-navigation li a {
+		padding: 0 10px;
+		color: #a6a6a6;
+		font-size: .8em;
+		line-height: 35px;
+	}
+	
+	#main-navigation .sf-menu ul {
+		position: relative;
+		max-width: 100%;
+		overflow: visible;
+		background: #333;
+		max-height: 400px;
+	}
+	
+	#main-navigation li a {
+		color: #fff;
+		font-size: 17px;
+	}
+	
+	#main-navigation .sf-menu > ul > li:after {
+		display: none;
+	}
+	
+	#main-navigation:target > .nav-open,
+																																						#main-navigation:target > .nav-close,
+																																						.nav-open,
+																																						.nav-close {
+		display: none;
+	}
+	
+	#main-navigation > .sf-menu > ul > li {
+		float: none;
+		border-bottom: 1px dotted #565656;
+		font-size: 1em;
+	}
+	
+	.sf-menu li ul {
+		width: 100%;
+	}
+	
+	#main-navigation {
+		border: none;
+	}
+	
+	#main-navigation .sf-menu ul {
+		width: 100% !important;
+	}
+	
+	#main-navigation li:hover ul, #main-navigation li.sfHover ul {
+		top: 0;
+		position: relative;
+		width: 100%;
+	}
+	
+	#main-navigation .sf-menu ul ul ul {
+		position: static;
+		background-color: #444;
+	}
+}
+
+@media only screen and (max-width: 25em) {
+	#top-navigation li a {
+		padding: 0 7px;
+		color: #a6a6a6;
+		font-size: .7em;
+		line-height: 30px;
+	}
+}
+
+.events-archive .entry-content, .events-archive .entry-header {
+	width: 100%;
+}
+
+.tribe-events-loop .tribe-events-event-meta {
+	clear: none;
+	border: none;
+	background-color: transparent;
+}
+
+.tribe-events-list .tribe-events-venue-details {
+	border: none;
+}
+
+.tribe-events-list .tribe-events-event-image {
+	margin: 0 1em 1em 0;
+}
+
+.tribe-events-list .tribe-events-event-image {
+	max-width: 120px;
+	float: left;
+}
+
+.tribe-events-single-event-description > p img {
+	//display: none;
+}
+
+.tribe-events-list .vevent.hentry {
+	padding: 1.25em 0;
+}
+
+.tribe-events-list .tribe-events-loop .tribe-events-content {
+	margin: 0;
+	float: none;
+}
+
+#masthead {
+	background: #fff url(http://www.doartystuff.com/wp-content/uploads/2014/09/dot.jpg) 290px -20px no-repeat;
+	background-size: contain;
+}
+
+@media screen and (max-width: 758px) {
+	#masthead {
+		background-position: 0 -5px;
+		background-size: 20%;
+	}
+}
+
+
+/* google translate widget */
+
+#google_translate_element {
+	float: right;
+	text-align: right;
+	line-height: 34px;
+}
+@media only screen and (max-width: 25em) {
+	#google_translate_element {
+		float: none;
+		text-align: center;
+	}
+}
+
+.goog-te-gadget-icon {
+	display: none;
+}
+
+.goog-te-gadget-simple {
+	color: #fff !important;
+	background-color: #333 !important;
+	border: none !important;
+}
+
+.goog-te-gadget-simple .goog-te-menu-value {
+	color: #bbb !important;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: italic;
+	font-size: 11px;
+}
+
+.goog-te-gadget-simple .goog-te-menu-value:hover {
+	color: #fff !important;
+	text-decoration: none !important;
+}
+
+.goog-te-menu2 {
+	border: none !important;
+}
+
+.goog-te-menu2 a {
+	padding: 6px !important;
+}
+
+.goog-te-menu2 .text 
+.goog-te-menu2 .indicator {
+	font-family: Georgia, 'Times New Roman', Times, serif !important;
+	font-style: italic !important;
+	font-size: 11px !important;
+}

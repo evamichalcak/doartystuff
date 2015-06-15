@@ -1,0 +1,630 @@
+0000.579 (0) Opened log file at time: Fri, 12 Jun 2015 11:11:50 +0000 on http://www.doartystuff.com
+0000.582 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.64 WP: 3.9.6 PHP: 5.2.17 (Linux box657.bluehost.com 3.12.35.1418868052 #1 SMP Wed Dec 17 20:04:02 CST 2014 x86_64) MySQL: 5.5.42-37.1-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 500M (used: 63.7M | 64.3M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0001.814 (0) Free space on disk containing Updraft's temporary directory: 117416.3 Mb
+0001.861 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0001.862 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 1
+0001.920 (0) Requesting semaphore lock (fd)
+0001.923 (0) Set semaphore last lock (fd) time to 2015-06-12 11:11:51
+0001.924 (0) Semaphore lock (fd) complete
+0001.931 (0) Backup run: resumption=0, nonce=add970c1969a, begun at=1434107509 (2s ago), job type=backup
+0001.933 (0) Scheduling a resumption (1) after 566 seconds (1434108077) in case this run gets aborted
+0001.964 (0) Checking if we have a zip executable available
+0001.965 (0) Testing: /usr/bin/zip
+0002.009 (0) Output: zip warning: binziptest/test.zip not found or empty
+0002.010 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0002.011 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0002.012 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=127) (out=105) (deflated 17%)
+0002.013 (0) Output: total bytes=127, compressed=105 -> 17% savings
+0002.020 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=134) (out=109) (deflated 19%)
+0002.022 (0) Output: total bytes=261, compressed=214 -> 18% savings
+0002.045 (0) Working binary zip found: /usr/bin/zip
+0002.047 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0002.047 (0) Creation of backups of directories: beginning
+0002.052 (0) Beginning creation of dump of plugins (split every: 500 Mb)
+0002.956 (0) Total entities for the zip file: 540 directories, 3624 files (0 skipped as non-modified), 530.7 Mb
+0002.961 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 Mb added on this batch (157 Mb, 3624 files batched, 42 (42) added so far); re-opening (prior size: 0 Kb)
+0012.372 (0) backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: size is now: 92.20 Mb
+0012.374 (0) A useful amount of data was added after this amount of zip processing: 10.2 s (normalised: 1.6 s, rate: 15713.2 Kb/s)
+0012.375 (0) Performance is good - will increase the amount of data we attempt to batch (time=10.2342879772, normalised_time=1.6291984441, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=96542198)
+0012.377 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 92.1 Mb added on this batch (158.9 Mb, 3624 files batched, 1 (43) added so far); re-opening (prior size: 94397.5 Kb)
+0024.617 (0) backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: size is now: 184.40 Mb
+0024.620 (0) A useful amount of data was added after this amount of zip processing: 12.5 s (normalised: 7.2 s, rate: 13034 Kb/s)
+0024.622 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 92.1 Mb added on this batch (156.5 Mb, 3624 files batched, 1 (44) added so far); re-opening (prior size: 188797.7 Kb)
+0040.086 (0) backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: size is now: 276.20 Mb
+0040.088 (0) A useful amount of data was added after this amount of zip processing: 15.9 s (normalised: 9.4 s, rate: 10048.8 Kb/s)
+0040.091 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: 100 files added (on-disk size: 282804.5 Kb)
+0040.095 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: 200 files added (on-disk size: 282804.5 Kb)
+0040.099 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: 300 files added (on-disk size: 282804.5 Kb)
+0040.102 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: 400 files added (on-disk size: 282804.5 Kb)
+0040.106 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: 500 files added (on-disk size: 282804.5 Kb)
+0040.108 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (19.9 Mb, 3624 files batched, 501 (545) added so far); re-opening (prior size: 282804.5 Kb)
+0053.736 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: 600 files added (on-disk size: 289709 Kb)
+0053.740 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: 700 files added (on-disk size: 289709 Kb)
+0053.745 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: 800 files added (on-disk size: 289709 Kb)
+0053.750 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: 900 files added (on-disk size: 289709 Kb)
+0053.754 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: 1000 files added (on-disk size: 289709 Kb)
+0053.756 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.2 Mb, 3624 files batched, 501 (1046) added so far); re-opening (prior size: 289709 Kb)
+0062.996 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: 1100 files added (on-disk size: 291039.2 Kb)
+0063.000 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: 1200 files added (on-disk size: 291039.2 Kb)
+0063.004 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: 1300 files added (on-disk size: 291039.2 Kb)
+0063.007 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: 1400 files added (on-disk size: 291039.2 Kb)
+0063.011 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: 1500 files added (on-disk size: 291039.2 Kb)
+0063.013 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.2 Mb, 3624 files batched, 501 (1547) added so far); re-opening (prior size: 291039.2 Kb)
+0074.369 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: 1600 files added (on-disk size: 294924.5 Kb)
+0074.373 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: 1700 files added (on-disk size: 294924.5 Kb)
+0074.376 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: 1800 files added (on-disk size: 294924.5 Kb)
+0074.380 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: 1900 files added (on-disk size: 294924.5 Kb)
+0074.384 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: 2000 files added (on-disk size: 294924.5 Kb)
+0074.386 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.5 Mb, 3624 files batched, 501 (2048) added so far); re-opening (prior size: 294924.5 Kb)
+0085.533 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: 2100 files added (on-disk size: 295465.8 Kb)
+0085.536 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: 2200 files added (on-disk size: 295465.8 Kb)
+0085.539 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: 2300 files added (on-disk size: 295465.8 Kb)
+0085.543 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: 2400 files added (on-disk size: 295465.8 Kb)
+0085.547 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: 2500 files added (on-disk size: 295465.8 Kb)
+0085.549 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.7 Mb, 3624 files batched, 501 (2549) added so far); re-opening (prior size: 295465.8 Kb)
+0094.266 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: 2600 files added (on-disk size: 297351.6 Kb)
+0094.272 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: 2700 files added (on-disk size: 297351.6 Kb)
+0094.279 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: 2800 files added (on-disk size: 297351.6 Kb)
+0094.285 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: 2900 files added (on-disk size: 297351.6 Kb)
+0094.291 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: 3000 files added (on-disk size: 297351.6 Kb)
+0094.294 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10 Mb, 3624 files batched, 501 (3050) added so far); re-opening (prior size: 297351.6 Kb)
+0107.960 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: 3100 files added (on-disk size: 301531.3 Kb)
+0107.966 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: 3200 files added (on-disk size: 301531.3 Kb)
+0107.973 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: 3300 files added (on-disk size: 301531.3 Kb)
+0107.979 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: 3400 files added (on-disk size: 301531.3 Kb)
+0107.985 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: 3500 files added (on-disk size: 301531.3 Kb)
+0107.988 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.1 Mb, 3624 files batched, 501 (3551) added so far); re-opening (prior size: 301531.3 Kb)
+0119.454 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip.tmp: 3600 files added (on-disk size: 304689 Kb)
+0128.725 (0) Created plugins zip (0) - 305362.3 Kb in 126.5 s (2413.9 Kb/s) (SHA1 checksum: da2c33fbaa00a33a3a44757f8aafd97754f37a5b)
+0128.730 (0) Beginning creation of dump of themes (split every: 500 Mb)
+0129.006 (0) Total entities for the zip file: 35 directories, 219 files (0 skipped as non-modified), 2.6 Mb
+0129.012 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-themes.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0129.018 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-themes.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0129.627 (0) backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-themes.zip.tmp: size is now: 1.70 Mb
+0129.640 (0) Created themes zip (0) - 1741.2 Kb in 0.7 s (2521.4 Kb/s) (SHA1 checksum: d45ccb67443165999a1c209c2c9f47ad09e0d859)
+0129.645 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0129.646 (0) Looking for candidates to back up in: /home4/playlabo/public_html/doartystuff/wp-content/uploads
+0129.646 (0) finding files: 2014: adding to list (1)
+0129.647 (0) finding files: 2015: adding to list (2)
+0129.648 (0) finding files: tribe-importer: adding to list (3)
+0129.648 (0) Beginning creation of dump of uploads (split every: 500 Mb)
+0130.014 (0) Total entities for the zip file: 14 directories, 1442 files (0 skipped as non-modified), 80.3 Mb
+0130.019 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-uploads.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0130.025 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-uploads.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0130.031 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-uploads.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0130.037 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-uploads.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0130.043 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-uploads.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0130.044 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (34.1 Mb, 1442 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0134.304 (0) backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-uploads.zip.tmp: size is now: 33.00 Mb
+0134.313 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-uploads.zip.tmp: 600 files added (on-disk size: 33833.1 Kb)
+0134.319 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-uploads.zip.tmp: 700 files added (on-disk size: 33833.1 Kb)
+0134.326 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-uploads.zip.tmp: 800 files added (on-disk size: 33833.1 Kb)
+0134.332 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-uploads.zip.tmp: 900 files added (on-disk size: 33833.1 Kb)
+0134.338 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-uploads.zip.tmp: 1000 files added (on-disk size: 33833.1 Kb)
+0134.339 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (29.5 Mb, 1442 files batched, 501 (1002) added so far); re-opening (prior size: 33833.1 Kb)
+0141.027 (0) backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-uploads.zip.tmp: size is now: 61.70 Mb
+0141.037 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-uploads.zip.tmp: 1100 files added (on-disk size: 63231.2 Kb)
+0141.043 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-uploads.zip.tmp: 1200 files added (on-disk size: 63231.2 Kb)
+0141.049 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-uploads.zip.tmp: 1300 files added (on-disk size: 63231.2 Kb)
+0141.056 (0) Zip: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-uploads.zip.tmp: 1400 files added (on-disk size: 63231.2 Kb)
+0149.290 (0) backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-uploads.zip.tmp: size is now: 77.90 Mb
+0149.769 (0) Created uploads zip (0) - 79733.5 Kb in 19.9 s (3996.7 Kb/s) (SHA1 checksum: 7c48f6535736615e7142cec132a970ba20cc4cfe)
+0149.773 (0) Beginning backup of other directories found in the content directory (index: 0)
+0149.774 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups
+0149.775 (0) Looking for candidates to back up in: /home4/playlabo/public_html/doartystuff/wp-content
+0149.776 (0) finding files: install.php: adding to list (1)
+0149.777 (0) finding files: uploads: skipping: this is the uploads directory
+0149.778 (0) finding files: languages: adding to list (2)
+0149.779 (0) finding files: index.php: adding to list (3)
+0149.779 (0) finding files: themes: skipping: this is the themes directory
+0149.780 (0) finding files: upgrade: skipping: excluded by options
+0149.781 (0) finding files: plugins: skipping: this is the plugins directory
+0149.782 (0) finding files: updraft: skipping: this is the updraft directory
+0149.945 (0) Total entities for the zip file: 3 directories, 15 files (0 skipped as non-modified), 0.4 Mb
+0150.070 (0) backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-others.zip.tmp: size is now: 0.10 Mb
+0150.075 (0) Created others zip (0) - 135.7 Kb in 0.1 s (1020.8 Kb/s) (SHA1 checksum: 733686fb6a5f5b07d96ec72cf80491d7fbf97852)
+0150.085 (0) Saving backup status to database (elements: 8)
+0150.088 (0) Beginning creation of database dump (WordPress DB)
+0150.090 (0) Testing: /usr/bin/mysqldump
+0150.134 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0150.141 (0) Table wp_mqjn_options: Total expected rows (approximate): 433
+0150.375 (0) Table wp_mqjn_options: Total rows added: 432 in 0.23 seconds
+0150.381 (0) Table wp_mqjn_options: finishing file (backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-db-table-wp_mqjn_options.table.gz - 159.4 Kb)
+0150.386 (0) Table wp_mqjn_users: Total expected rows (approximate): 2
+0150.389 (0) Table wp_mqjn_users: Total rows added: 2 in 0.00 seconds
+0150.390 (0) Table wp_mqjn_users: finishing file (backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-db-table-wp_mqjn_users.table.gz - 0.6 Kb)
+0150.394 (0) Table wp_mqjn_usermeta: Total expected rows (approximate): 37
+0150.398 (0) Table wp_mqjn_usermeta: Total rows added: 37 in 0.00 seconds
+0150.399 (0) Table wp_mqjn_usermeta: finishing file (backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-db-table-wp_mqjn_usermeta.table.gz - 1.2 Kb)
+0150.404 (0) Table wp_mqjn_commentmeta: Total expected rows (approximate): 318
+0150.420 (0) Table wp_mqjn_commentmeta: Total rows added: 318 in 0.01 seconds
+0150.421 (0) Table wp_mqjn_commentmeta: finishing file (backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-db-table-wp_mqjn_commentmeta.table.gz - 20.6 Kb)
+0150.427 (0) Table wp_mqjn_comments: Total expected rows (approximate): 91
+0150.439 (0) Table wp_mqjn_comments: Total rows added: 91 in 0.01 seconds
+0150.441 (0) Table wp_mqjn_comments: finishing file (backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-db-table-wp_mqjn_comments.table.gz - 15.8 Kb)
+0150.447 (0) Table wp_mqjn_links: Total expected rows (approximate): 0
+0150.450 (0) Table wp_mqjn_links: Total rows added: 0 in 0.00 seconds
+0150.451 (0) Table wp_mqjn_links: finishing file (backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-db-table-wp_mqjn_links.table.gz - 0.4 Kb)
+0150.454 (0) Table wp_mqjn_postmeta: Total expected rows (approximate): 5971
+0150.627 (0) Table wp_mqjn_postmeta: Total rows added: 5971 in 0.17 seconds
+0150.629 (0) Table wp_mqjn_postmeta: finishing file (backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-db-table-wp_mqjn_postmeta.table.gz - 76.2 Kb)
+0150.633 (0) Table wp_mqjn_posts: Total expected rows (approximate): 888
+0150.839 (0) Table wp_mqjn_posts: Total rows added: 888 in 0.20 seconds
+0150.841 (0) Table wp_mqjn_posts: finishing file (backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-db-table-wp_mqjn_posts.table.gz - 226.8 Kb)
+0150.846 (0) Table wp_mqjn_term_relationships: Total expected rows (approximate): 530
+0150.861 (0) Table wp_mqjn_term_relationships: Total rows added: 530 in 0.01 seconds
+0150.863 (0) Table wp_mqjn_term_relationships: finishing file (backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-db-table-wp_mqjn_term_relationships.table.gz - 1.8 Kb)
+0150.867 (0) Table wp_mqjn_term_taxonomy: Total expected rows (approximate): 63
+0150.872 (0) Table wp_mqjn_term_taxonomy: Total rows added: 63 in 0.00 seconds
+0150.874 (0) Table wp_mqjn_term_taxonomy: finishing file (backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-db-table-wp_mqjn_term_taxonomy.table.gz - 0.9 Kb)
+0150.878 (0) Table wp_mqjn_terms: Total expected rows (approximate): 61
+0150.882 (0) Table wp_mqjn_terms: Total rows added: 61 in 0.00 seconds
+0150.883 (0) Table wp_mqjn_terms: finishing file (backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-db-table-wp_mqjn_terms.table.gz - 1.3 Kb)
+0150.887 (0) backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-db-table-wp_mqjn_options.table.gz (1/11): adding to final database dump
+0150.945 (0) backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-db-table-wp_mqjn_users.table.gz (2/11): adding to final database dump
+0150.948 (0) backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-db-table-wp_mqjn_usermeta.table.gz (3/11): adding to final database dump
+0150.950 (0) backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-db-table-wp_mqjn_commentmeta.table.gz (4/11): adding to final database dump
+0150.957 (0) backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-db-table-wp_mqjn_comments.table.gz (5/11): adding to final database dump
+0150.962 (0) backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-db-table-wp_mqjn_links.table.gz (6/11): adding to final database dump
+0150.963 (0) backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-db-table-wp_mqjn_postmeta.table.gz (7/11): adding to final database dump
+0151.006 (0) backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-db-table-wp_mqjn_posts.table.gz (8/11): adding to final database dump
+0151.081 (0) backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-db-table-wp_mqjn_term_relationships.table.gz (9/11): adding to final database dump
+0151.085 (0) backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-db-table-wp_mqjn_term_taxonomy.table.gz (10/11): adding to final database dump
+0151.086 (0) backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-db-table-wp_mqjn_terms.table.gz (11/11): adding to final database dump
+0151.087 (0) backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-db.gz: finished writing out complete database file (480 Kb)
+0151.094 (0) Total database tables backed up: 11 (backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-db.gz, size: 515482, checksum (SHA1): a0fc8c8cdd3751c9bec07803d4d9ebb39a1d528d)
+0151.096 (0) Saving backup history
+0151.100 (0) backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0151.101 (0) backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0151.102 (0) backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0151.103 (0) backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-others.zip: others: This file has not yet been successfully uploaded: will queue
+0151.104 (0) backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-db.gz: db: This file has not yet been successfully uploaded: will queue
+0151.106 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0151.109 (0) Cloud backup selection (1/1): googledrive (last)
+0151.109 (0) Beginning dispatch of backup to remote (googledrive)
+0151.125 (0) Google Drive: requesting access token: client_id=507131177963-1aaj638ar11j1arlba7tfuc7imd8l82m.apps.googleusercontent.com
+0151.262 (0) Google Drive: successfully obtained access token
+0152.778 (0) Google Drive quota usage: used=961 Mb, total=15360 Mb, available=14399 Mb
+0152.780 (0) backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip: Attempting to upload to Google Drive (into folder id: 0B0aSZwNLjO5WUF9HMllWOUU4dFU)
+0153.985 (0) Googledrive chunked upload: 0.3 % uploaded (1048576)
+0154.742 (0) Googledrive chunked upload: 0.7 % uploaded (2097152)
+0155.558 (0) Googledrive chunked upload: 1 % uploaded (3145728)
+0156.364 (0) Googledrive chunked upload: 1.3 % uploaded (4194304)
+0157.821 (0) Googledrive chunked upload: 1.7 % uploaded (5242880)
+0159.007 (0) Googledrive chunked upload: 2 % uploaded (6291456)
+0160.198 (0) Googledrive chunked upload: 2.3 % uploaded (7340032)
+0161.586 (0) Googledrive chunked upload: 2.7 % uploaded (8388608)
+0162.665 (0) Googledrive chunked upload: 3 % uploaded (9437184)
+0163.726 (0) Googledrive chunked upload: 3.4 % uploaded (10485760)
+0164.920 (0) Googledrive chunked upload: 3.7 % uploaded (11534336)
+0166.000 (0) Googledrive chunked upload: 4 % uploaded (12582912)
+0167.043 (0) Googledrive chunked upload: 4.4 % uploaded (13631488)
+0168.109 (0) Googledrive chunked upload: 4.7 % uploaded (14680064)
+0169.214 (0) Googledrive chunked upload: 5 % uploaded (15728640)
+0170.347 (0) Googledrive chunked upload: 5.4 % uploaded (16777216)
+0171.394 (0) Googledrive chunked upload: 5.7 % uploaded (17825792)
+0172.475 (0) Googledrive chunked upload: 6 % uploaded (18874368)
+0173.517 (0) Googledrive chunked upload: 6.4 % uploaded (19922944)
+0174.548 (0) Googledrive chunked upload: 6.7 % uploaded (20971520)
+0175.620 (0) Googledrive chunked upload: 7 % uploaded (22020096)
+0176.691 (0) Googledrive chunked upload: 7.4 % uploaded (23068672)
+0177.695 (0) Googledrive chunked upload: 7.7 % uploaded (24117248)
+0179.013 (0) Googledrive chunked upload: 8 % uploaded (25165824)
+0180.103 (0) Googledrive chunked upload: 8.4 % uploaded (26214400)
+0181.198 (0) Googledrive chunked upload: 8.7 % uploaded (27262976)
+0182.257 (0) Googledrive chunked upload: 9.1 % uploaded (28311552)
+0183.329 (0) Googledrive chunked upload: 9.4 % uploaded (29360128)
+0184.404 (0) Googledrive chunked upload: 9.7 % uploaded (30408704)
+0185.490 (0) Googledrive chunked upload: 10.1 % uploaded (31457280)
+0186.536 (0) Googledrive chunked upload: 10.4 % uploaded (32505856)
+0187.678 (0) Googledrive chunked upload: 10.7 % uploaded (33554432)
+0188.789 (0) Googledrive chunked upload: 11.1 % uploaded (34603008)
+0189.898 (0) Googledrive chunked upload: 11.4 % uploaded (35651584)
+0191.029 (0) Googledrive chunked upload: 11.7 % uploaded (36700160)
+0192.123 (0) Googledrive chunked upload: 12.1 % uploaded (37748736)
+0193.131 (0) Googledrive chunked upload: 12.4 % uploaded (38797312)
+0194.215 (0) Googledrive chunked upload: 12.7 % uploaded (39845888)
+0195.427 (0) Googledrive chunked upload: 13.1 % uploaded (40894464)
+0196.535 (0) Googledrive chunked upload: 13.4 % uploaded (41943040)
+0197.609 (0) Googledrive chunked upload: 13.7 % uploaded (42991616)
+0198.769 (0) Googledrive chunked upload: 14.1 % uploaded (44040192)
+0199.909 (0) Googledrive chunked upload: 14.4 % uploaded (45088768)
+0201.013 (0) Googledrive chunked upload: 14.8 % uploaded (46137344)
+0202.144 (0) Googledrive chunked upload: 15.1 % uploaded (47185920)
+0203.226 (0) Googledrive chunked upload: 15.4 % uploaded (48234496)
+0204.284 (0) Googledrive chunked upload: 15.8 % uploaded (49283072)
+0205.441 (0) Googledrive chunked upload: 16.1 % uploaded (50331648)
+0206.459 (0) Googledrive chunked upload: 16.4 % uploaded (51380224)
+0207.563 (0) Googledrive chunked upload: 16.8 % uploaded (52428800)
+0208.674 (0) Googledrive chunked upload: 17.1 % uploaded (53477376)
+0209.694 (0) Googledrive chunked upload: 17.4 % uploaded (54525952)
+0210.716 (0) Googledrive chunked upload: 17.8 % uploaded (55574528)
+0211.861 (0) Googledrive chunked upload: 18.1 % uploaded (56623104)
+0212.893 (0) Googledrive chunked upload: 18.4 % uploaded (57671680)
+0213.951 (0) Googledrive chunked upload: 18.8 % uploaded (58720256)
+0215.068 (0) Googledrive chunked upload: 19.1 % uploaded (59768832)
+0216.086 (0) Googledrive chunked upload: 19.4 % uploaded (60817408)
+0217.138 (0) Googledrive chunked upload: 19.8 % uploaded (61865984)
+0218.216 (0) Googledrive chunked upload: 20.1 % uploaded (62914560)
+0219.280 (0) Googledrive chunked upload: 20.5 % uploaded (63963136)
+0220.289 (0) Googledrive chunked upload: 20.8 % uploaded (65011712)
+0221.360 (0) Googledrive chunked upload: 21.1 % uploaded (66060288)
+0222.446 (0) Googledrive chunked upload: 21.5 % uploaded (67108864)
+0223.523 (0) Googledrive chunked upload: 21.8 % uploaded (68157440)
+0224.645 (0) Googledrive chunked upload: 22.1 % uploaded (69206016)
+0225.717 (0) Googledrive chunked upload: 22.5 % uploaded (70254592)
+0226.807 (0) Googledrive chunked upload: 22.8 % uploaded (71303168)
+0227.891 (0) Googledrive chunked upload: 23.1 % uploaded (72351744)
+0228.922 (0) Googledrive chunked upload: 23.5 % uploaded (73400320)
+0229.985 (0) Googledrive chunked upload: 23.8 % uploaded (74448896)
+0231.117 (0) Googledrive chunked upload: 24.1 % uploaded (75497472)
+0232.197 (0) Googledrive chunked upload: 24.5 % uploaded (76546048)
+0233.280 (0) Googledrive chunked upload: 24.8 % uploaded (77594624)
+0234.330 (0) Googledrive chunked upload: 25.2 % uploaded (78643200)
+0235.417 (0) Googledrive chunked upload: 25.5 % uploaded (79691776)
+0236.462 (0) Googledrive chunked upload: 25.8 % uploaded (80740352)
+0237.517 (0) Googledrive chunked upload: 26.2 % uploaded (81788928)
+0238.607 (0) Googledrive chunked upload: 26.5 % uploaded (82837504)
+0239.621 (0) Googledrive chunked upload: 26.8 % uploaded (83886080)
+0240.650 (0) Googledrive chunked upload: 27.2 % uploaded (84934656)
+0241.725 (0) Googledrive chunked upload: 27.5 % uploaded (85983232)
+0242.988 (0) Googledrive chunked upload: 27.8 % uploaded (87031808)
+0244.087 (0) Googledrive chunked upload: 28.2 % uploaded (88080384)
+0245.207 (0) Googledrive chunked upload: 28.5 % uploaded (89128960)
+0246.292 (0) Googledrive chunked upload: 28.8 % uploaded (90177536)
+0247.367 (0) Googledrive chunked upload: 29.2 % uploaded (91226112)
+0248.539 (0) Googledrive chunked upload: 29.5 % uploaded (92274688)
+0249.677 (0) Googledrive chunked upload: 29.8 % uploaded (93323264)
+0250.645 (0) Googledrive chunked upload: 30.2 % uploaded (94371840)
+0251.646 (0) Googledrive chunked upload: 30.5 % uploaded (95420416)
+0252.665 (0) Googledrive chunked upload: 30.9 % uploaded (96468992)
+0253.632 (0) Googledrive chunked upload: 31.2 % uploaded (97517568)
+0254.573 (0) Googledrive chunked upload: 31.5 % uploaded (98566144)
+0255.474 (0) Googledrive chunked upload: 31.9 % uploaded (99614720)
+0256.399 (0) Googledrive chunked upload: 32.2 % uploaded (100663296)
+0257.336 (0) Googledrive chunked upload: 32.5 % uploaded (101711872)
+0258.317 (0) Googledrive chunked upload: 32.9 % uploaded (102760448)
+0259.301 (0) Googledrive chunked upload: 33.2 % uploaded (103809024)
+0260.523 (0) Googledrive chunked upload: 33.5 % uploaded (104857600)
+0261.631 (0) Googledrive chunked upload: 33.9 % uploaded (105906176)
+0262.676 (0) Googledrive chunked upload: 34.2 % uploaded (106954752)
+0263.752 (0) Googledrive chunked upload: 34.5 % uploaded (108003328)
+0264.808 (0) Googledrive chunked upload: 34.9 % uploaded (109051904)
+0265.855 (0) Googledrive chunked upload: 35.2 % uploaded (110100480)
+0266.847 (0) Googledrive chunked upload: 35.5 % uploaded (111149056)
+0267.854 (0) Googledrive chunked upload: 35.9 % uploaded (112197632)
+0268.898 (0) Googledrive chunked upload: 36.2 % uploaded (113246208)
+0269.987 (0) Googledrive chunked upload: 36.6 % uploaded (114294784)
+0271.010 (0) Googledrive chunked upload: 36.9 % uploaded (115343360)
+0272.020 (0) Googledrive chunked upload: 37.2 % uploaded (116391936)
+0273.054 (0) Googledrive chunked upload: 37.6 % uploaded (117440512)
+0274.124 (0) Googledrive chunked upload: 37.9 % uploaded (118489088)
+0275.180 (0) Googledrive chunked upload: 38.2 % uploaded (119537664)
+0276.375 (0) Googledrive chunked upload: 38.6 % uploaded (120586240)
+0277.383 (0) Googledrive chunked upload: 38.9 % uploaded (121634816)
+0278.408 (0) Googledrive chunked upload: 39.2 % uploaded (122683392)
+0279.450 (0) Googledrive chunked upload: 39.6 % uploaded (123731968)
+0280.508 (0) Googledrive chunked upload: 39.9 % uploaded (124780544)
+0281.539 (0) Googledrive chunked upload: 40.2 % uploaded (125829120)
+0282.562 (0) Googledrive chunked upload: 40.6 % uploaded (126877696)
+0283.615 (0) Googledrive chunked upload: 40.9 % uploaded (127926272)
+0284.730 (0) Googledrive chunked upload: 41.2 % uploaded (128974848)
+0285.748 (0) Googledrive chunked upload: 41.6 % uploaded (130023424)
+0286.828 (0) Googledrive chunked upload: 41.9 % uploaded (131072000)
+0287.951 (0) Googledrive chunked upload: 42.3 % uploaded (132120576)
+0288.949 (0) Googledrive chunked upload: 42.6 % uploaded (133169152)
+0290.051 (0) Googledrive chunked upload: 42.9 % uploaded (134217728)
+0291.070 (0) Googledrive chunked upload: 43.3 % uploaded (135266304)
+0292.233 (0) Googledrive chunked upload: 43.6 % uploaded (136314880)
+0293.247 (0) Googledrive chunked upload: 43.9 % uploaded (137363456)
+0294.246 (0) Googledrive chunked upload: 44.3 % uploaded (138412032)
+0295.284 (0) Googledrive chunked upload: 44.6 % uploaded (139460608)
+0296.277 (0) Googledrive chunked upload: 44.9 % uploaded (140509184)
+0297.281 (0) Googledrive chunked upload: 45.3 % uploaded (141557760)
+0298.375 (0) Googledrive chunked upload: 45.6 % uploaded (142606336)
+0299.399 (0) Googledrive chunked upload: 45.9 % uploaded (143654912)
+0300.450 (0) Googledrive chunked upload: 46.3 % uploaded (144703488)
+0301.463 (0) Googledrive chunked upload: 46.6 % uploaded (145752064)
+0302.524 (0) Googledrive chunked upload: 46.9 % uploaded (146800640)
+0303.552 (0) Googledrive chunked upload: 47.3 % uploaded (147849216)
+0304.572 (0) Googledrive chunked upload: 47.6 % uploaded (148897792)
+0305.605 (0) Googledrive chunked upload: 48 % uploaded (149946368)
+0306.632 (0) Googledrive chunked upload: 48.3 % uploaded (150994944)
+0307.690 (0) Googledrive chunked upload: 48.6 % uploaded (152043520)
+0308.704 (0) Googledrive chunked upload: 49 % uploaded (153092096)
+0309.732 (0) Googledrive chunked upload: 49.3 % uploaded (154140672)
+0310.777 (0) Googledrive chunked upload: 49.6 % uploaded (155189248)
+0311.811 (0) Googledrive chunked upload: 50 % uploaded (156237824)
+0312.819 (0) Googledrive chunked upload: 50.3 % uploaded (157286400)
+0313.984 (0) Googledrive chunked upload: 50.6 % uploaded (158334976)
+0315.043 (0) Googledrive chunked upload: 51 % uploaded (159383552)
+0316.044 (0) Googledrive chunked upload: 51.3 % uploaded (160432128)
+0317.091 (0) Googledrive chunked upload: 51.6 % uploaded (161480704)
+0318.087 (0) Googledrive chunked upload: 52 % uploaded (162529280)
+0319.113 (0) Googledrive chunked upload: 52.3 % uploaded (163577856)
+0320.130 (0) Googledrive chunked upload: 52.6 % uploaded (164626432)
+0321.130 (0) Googledrive chunked upload: 53 % uploaded (165675008)
+0322.143 (0) Googledrive chunked upload: 53.3 % uploaded (166723584)
+0323.178 (0) Googledrive chunked upload: 53.7 % uploaded (167772160)
+0324.227 (0) Googledrive chunked upload: 54 % uploaded (168820736)
+0325.239 (0) Googledrive chunked upload: 54.3 % uploaded (169869312)
+0326.235 (0) Googledrive chunked upload: 54.7 % uploaded (170917888)
+0327.264 (0) Googledrive chunked upload: 55 % uploaded (171966464)
+0328.365 (0) Googledrive chunked upload: 55.3 % uploaded (173015040)
+0329.406 (0) Googledrive chunked upload: 55.7 % uploaded (174063616)
+0330.373 (0) Googledrive chunked upload: 56 % uploaded (175112192)
+0331.473 (0) Googledrive chunked upload: 56.3 % uploaded (176160768)
+0332.493 (0) Googledrive chunked upload: 56.7 % uploaded (177209344)
+0333.492 (0) Googledrive chunked upload: 57 % uploaded (178257920)
+0334.473 (0) Googledrive chunked upload: 57.3 % uploaded (179306496)
+0335.461 (0) Googledrive chunked upload: 57.7 % uploaded (180355072)
+0336.491 (0) Googledrive chunked upload: 58 % uploaded (181403648)
+0337.462 (0) Googledrive chunked upload: 58.3 % uploaded (182452224)
+0338.456 (0) Googledrive chunked upload: 58.7 % uploaded (183500800)
+0339.551 (0) Googledrive chunked upload: 59 % uploaded (184549376)
+0340.548 (0) Googledrive chunked upload: 59.4 % uploaded (185597952)
+0341.564 (0) Googledrive chunked upload: 59.7 % uploaded (186646528)
+0342.574 (0) Googledrive chunked upload: 60 % uploaded (187695104)
+0343.626 (0) Googledrive chunked upload: 60.4 % uploaded (188743680)
+0344.651 (0) Googledrive chunked upload: 60.7 % uploaded (189792256)
+0345.645 (0) Googledrive chunked upload: 61 % uploaded (190840832)
+0346.653 (0) Googledrive chunked upload: 61.4 % uploaded (191889408)
+0347.658 (0) Googledrive chunked upload: 61.7 % uploaded (192937984)
+0348.737 (0) Googledrive chunked upload: 62 % uploaded (193986560)
+0349.747 (0) Googledrive chunked upload: 62.4 % uploaded (195035136)
+0350.779 (0) Googledrive chunked upload: 62.7 % uploaded (196083712)
+0351.820 (0) Googledrive chunked upload: 63 % uploaded (197132288)
+0352.855 (0) Googledrive chunked upload: 63.4 % uploaded (198180864)
+0353.816 (0) Googledrive chunked upload: 63.7 % uploaded (199229440)
+0354.846 (0) Googledrive chunked upload: 64 % uploaded (200278016)
+0355.958 (0) Googledrive chunked upload: 64.4 % uploaded (201326592)
+0356.913 (0) Googledrive chunked upload: 64.7 % uploaded (202375168)
+0357.954 (0) Googledrive chunked upload: 65.1 % uploaded (203423744)
+0358.930 (0) Googledrive chunked upload: 65.4 % uploaded (204472320)
+0359.935 (0) Googledrive chunked upload: 65.7 % uploaded (205520896)
+0361.147 (0) Googledrive chunked upload: 66.1 % uploaded (206569472)
+0362.027 (0) Googledrive chunked upload: 66.4 % uploaded (207618048)
+0362.971 (0) Googledrive chunked upload: 66.7 % uploaded (208666624)
+0363.887 (0) Googledrive chunked upload: 67.1 % uploaded (209715200)
+0364.771 (0) Googledrive chunked upload: 67.4 % uploaded (210763776)
+0365.683 (0) Googledrive chunked upload: 67.7 % uploaded (211812352)
+0366.613 (0) Googledrive chunked upload: 68.1 % uploaded (212860928)
+0367.562 (0) Googledrive chunked upload: 68.4 % uploaded (213909504)
+0368.497 (0) Googledrive chunked upload: 68.7 % uploaded (214958080)
+0369.447 (0) Googledrive chunked upload: 69.1 % uploaded (216006656)
+0370.298 (0) Googledrive chunked upload: 69.4 % uploaded (217055232)
+0371.166 (0) Googledrive chunked upload: 69.8 % uploaded (218103808)
+0372.098 (0) Googledrive chunked upload: 70.1 % uploaded (219152384)
+0373.038 (0) Googledrive chunked upload: 70.4 % uploaded (220200960)
+0373.986 (0) Googledrive chunked upload: 70.8 % uploaded (221249536)
+0374.895 (0) Googledrive chunked upload: 71.1 % uploaded (222298112)
+0375.855 (0) Googledrive chunked upload: 71.4 % uploaded (223346688)
+0376.786 (0) Googledrive chunked upload: 71.8 % uploaded (224395264)
+0377.681 (0) Googledrive chunked upload: 72.1 % uploaded (225443840)
+0378.603 (0) Googledrive chunked upload: 72.4 % uploaded (226492416)
+0379.559 (0) Googledrive chunked upload: 72.8 % uploaded (227540992)
+0380.481 (0) Googledrive chunked upload: 73.1 % uploaded (228589568)
+0381.353 (0) Googledrive chunked upload: 73.4 % uploaded (229638144)
+0382.236 (0) Googledrive chunked upload: 73.8 % uploaded (230686720)
+0383.174 (0) Googledrive chunked upload: 74.1 % uploaded (231735296)
+0384.082 (0) Googledrive chunked upload: 74.4 % uploaded (232783872)
+0384.971 (0) Googledrive chunked upload: 74.8 % uploaded (233832448)
+0385.910 (0) Googledrive chunked upload: 75.1 % uploaded (234881024)
+0386.782 (0) Googledrive chunked upload: 75.5 % uploaded (235929600)
+0387.653 (0) Googledrive chunked upload: 75.8 % uploaded (236978176)
+0388.547 (0) Googledrive chunked upload: 76.1 % uploaded (238026752)
+0389.439 (0) Googledrive chunked upload: 76.5 % uploaded (239075328)
+0390.353 (0) Googledrive chunked upload: 76.8 % uploaded (240123904)
+0391.263 (0) Googledrive chunked upload: 77.1 % uploaded (241172480)
+0392.225 (0) Googledrive chunked upload: 77.5 % uploaded (242221056)
+0394.122 (0) Googledrive chunked upload: 77.8 % uploaded (243269632)
+0395.516 (0) Googledrive chunked upload: 78.1 % uploaded (244318208)
+0396.668 (0) Googledrive chunked upload: 78.5 % uploaded (245366784)
+0397.806 (0) Googledrive chunked upload: 78.8 % uploaded (246415360)
+0398.833 (0) Googledrive chunked upload: 79.1 % uploaded (247463936)
+0399.839 (0) Googledrive chunked upload: 79.5 % uploaded (248512512)
+0400.902 (0) Googledrive chunked upload: 79.8 % uploaded (249561088)
+0401.899 (0) Googledrive chunked upload: 80.1 % uploaded (250609664)
+0402.931 (0) Googledrive chunked upload: 80.5 % uploaded (251658240)
+0403.970 (0) Googledrive chunked upload: 80.8 % uploaded (252706816)
+0405.043 (0) Googledrive chunked upload: 81.2 % uploaded (253755392)
+0406.104 (0) Googledrive chunked upload: 81.5 % uploaded (254803968)
+0407.207 (0) Googledrive chunked upload: 81.8 % uploaded (255852544)
+0408.230 (0) Googledrive chunked upload: 82.2 % uploaded (256901120)
+0409.314 (0) Googledrive chunked upload: 82.5 % uploaded (257949696)
+0410.348 (0) Googledrive chunked upload: 82.8 % uploaded (258998272)
+0411.517 (0) Googledrive chunked upload: 83.2 % uploaded (260046848)
+0412.586 (0) Googledrive chunked upload: 83.5 % uploaded (261095424)
+0413.631 (0) Googledrive chunked upload: 83.8 % uploaded (262144000)
+0414.669 (0) Googledrive chunked upload: 84.2 % uploaded (263192576)
+0415.709 (0) Googledrive chunked upload: 84.5 % uploaded (264241152)
+0416.769 (0) Googledrive chunked upload: 84.8 % uploaded (265289728)
+0417.797 (0) Googledrive chunked upload: 85.2 % uploaded (266338304)
+0418.818 (0) Googledrive chunked upload: 85.5 % uploaded (267386880)
+0419.848 (0) Googledrive chunked upload: 85.8 % uploaded (268435456)
+0420.924 (0) Googledrive chunked upload: 86.2 % uploaded (269484032)
+0421.932 (0) Googledrive chunked upload: 86.5 % uploaded (270532608)
+0422.973 (0) Googledrive chunked upload: 86.9 % uploaded (271581184)
+0424.064 (0) Googledrive chunked upload: 87.2 % uploaded (272629760)
+0425.174 (0) Googledrive chunked upload: 87.5 % uploaded (273678336)
+0426.217 (0) Googledrive chunked upload: 87.9 % uploaded (274726912)
+0427.301 (0) Googledrive chunked upload: 88.2 % uploaded (275775488)
+0428.292 (0) Googledrive chunked upload: 88.5 % uploaded (276824064)
+0429.397 (0) Googledrive chunked upload: 88.9 % uploaded (277872640)
+0430.483 (0) Googledrive chunked upload: 89.2 % uploaded (278921216)
+0431.538 (0) Googledrive chunked upload: 89.5 % uploaded (279969792)
+0432.599 (0) Googledrive chunked upload: 89.9 % uploaded (281018368)
+0433.754 (0) Googledrive chunked upload: 90.2 % uploaded (282066944)
+0434.716 (0) Googledrive chunked upload: 90.5 % uploaded (283115520)
+0435.721 (0) Googledrive chunked upload: 90.9 % uploaded (284164096)
+0436.655 (0) Googledrive chunked upload: 91.2 % uploaded (285212672)
+0437.621 (0) Googledrive chunked upload: 91.5 % uploaded (286261248)
+0438.668 (0) Googledrive chunked upload: 91.9 % uploaded (287309824)
+0439.649 (0) Googledrive chunked upload: 92.2 % uploaded (288358400)
+0440.592 (0) Googledrive chunked upload: 92.6 % uploaded (289406976)
+0441.553 (0) Googledrive chunked upload: 92.9 % uploaded (290455552)
+0442.620 (0) Googledrive chunked upload: 93.2 % uploaded (291504128)
+0443.581 (0) Googledrive chunked upload: 93.6 % uploaded (292552704)
+0444.566 (0) Googledrive chunked upload: 93.9 % uploaded (293601280)
+0445.531 (0) Googledrive chunked upload: 94.2 % uploaded (294649856)
+0446.479 (0) Googledrive chunked upload: 94.6 % uploaded (295698432)
+0447.459 (0) Googledrive chunked upload: 94.9 % uploaded (296747008)
+0448.427 (0) Googledrive chunked upload: 95.2 % uploaded (297795584)
+0449.391 (0) Googledrive chunked upload: 95.6 % uploaded (298844160)
+0450.388 (0) Googledrive chunked upload: 95.9 % uploaded (299892736)
+0451.372 (0) Googledrive chunked upload: 96.2 % uploaded (300941312)
+0452.338 (0) Googledrive chunked upload: 96.6 % uploaded (301989888)
+0453.268 (0) Googledrive chunked upload: 96.9 % uploaded (303038464)
+0454.266 (0) Googledrive chunked upload: 97.2 % uploaded (304087040)
+0455.254 (0) Googledrive chunked upload: 97.6 % uploaded (305135616)
+0456.194 (0) Googledrive chunked upload: 97.9 % uploaded (306184192)
+0457.205 (0) Googledrive chunked upload: 98.3 % uploaded (307232768)
+0458.245 (0) Googledrive chunked upload: 98.6 % uploaded (308281344)
+0459.228 (0) Googledrive chunked upload: 98.9 % uploaded (309329920)
+0460.238 (0) Googledrive chunked upload: 99.3 % uploaded (310378496)
+0461.237 (0) Googledrive chunked upload: 99.6 % uploaded (311427072)
+0462.264 (0) Googledrive chunked upload: 99.9 % uploaded (312475648)
+0464.177 (0) Googledrive chunked upload: 100 % uploaded (312475648)
+0464.194 (0) OK: Archive backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip uploaded to Google Drive in 311.41 seconds
+0464.196 (0) Recording as successfully uploaded: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip (abe95dfea7d98ab69b72a51976cadba0)
+0464.267 (0) Deleting local file: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-plugins.zip: OK
+0464.663 (0) Google Drive quota usage: used=1259.2 Mb, total=15360 Mb, available=14100.8 Mb
+0464.673 (0) backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-themes.zip: Attempting to upload to Google Drive (into folder id: 0B0aSZwNLjO5WUF9HMllWOUU4dFU)
+0466.182 (0) Googledrive chunked upload: 58.8 % uploaded (1048576)
+0467.592 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0467.606 (0) OK: Archive backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-themes.zip uploaded to Google Drive in 2.93 seconds
+0467.621 (0) Recording as successfully uploaded: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-themes.zip (af940c470a73e0ecbd286bd203933266)
+0467.626 (0) Deleting local file: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-themes.zip: OK
+0468.089 (0) Google Drive quota usage: used=1260.9 Mb, total=15360 Mb, available=14099.1 Mb
+0468.091 (0) backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-uploads.zip: Attempting to upload to Google Drive (into folder id: 0B0aSZwNLjO5WUF9HMllWOUU4dFU)
+0469.471 (0) Googledrive chunked upload: 1.3 % uploaded (1048576)
+0470.593 (0) Googledrive chunked upload: 2.6 % uploaded (2097152)
+0471.613 (0) Googledrive chunked upload: 3.9 % uploaded (3145728)
+0472.578 (0) Googledrive chunked upload: 5.1 % uploaded (4194304)
+0473.575 (0) Googledrive chunked upload: 6.4 % uploaded (5242880)
+0474.777 (0) Googledrive chunked upload: 7.7 % uploaded (6291456)
+0475.697 (0) Googledrive chunked upload: 9 % uploaded (7340032)
+0476.616 (0) Googledrive chunked upload: 10.3 % uploaded (8388608)
+0477.542 (0) Googledrive chunked upload: 11.6 % uploaded (9437184)
+0478.461 (0) Googledrive chunked upload: 12.8 % uploaded (10485760)
+0479.406 (0) Googledrive chunked upload: 14.1 % uploaded (11534336)
+0480.323 (0) Googledrive chunked upload: 15.4 % uploaded (12582912)
+0481.268 (0) Googledrive chunked upload: 16.7 % uploaded (13631488)
+0482.183 (0) Googledrive chunked upload: 18 % uploaded (14680064)
+0483.080 (0) Googledrive chunked upload: 19.3 % uploaded (15728640)
+0484.062 (0) Googledrive chunked upload: 20.5 % uploaded (16777216)
+0484.990 (0) Googledrive chunked upload: 21.8 % uploaded (17825792)
+0485.915 (0) Googledrive chunked upload: 23.1 % uploaded (18874368)
+0487.029 (0) Googledrive chunked upload: 24.4 % uploaded (19922944)
+0488.034 (0) Googledrive chunked upload: 25.7 % uploaded (20971520)
+0489.008 (0) Googledrive chunked upload: 27 % uploaded (22020096)
+0490.044 (0) Googledrive chunked upload: 28.3 % uploaded (23068672)
+0490.958 (0) Googledrive chunked upload: 29.5 % uploaded (24117248)
+0491.931 (0) Googledrive chunked upload: 30.8 % uploaded (25165824)
+0492.917 (0) Googledrive chunked upload: 32.1 % uploaded (26214400)
+0493.896 (0) Googledrive chunked upload: 33.4 % uploaded (27262976)
+0494.795 (0) Googledrive chunked upload: 34.7 % uploaded (28311552)
+0495.673 (0) Googledrive chunked upload: 36 % uploaded (29360128)
+0496.532 (0) Googledrive chunked upload: 37.2 % uploaded (30408704)
+0497.369 (0) Googledrive chunked upload: 38.5 % uploaded (31457280)
+0498.301 (0) Googledrive chunked upload: 39.8 % uploaded (32505856)
+0499.216 (0) Googledrive chunked upload: 41.1 % uploaded (33554432)
+0500.126 (0) Googledrive chunked upload: 42.4 % uploaded (34603008)
+0501.048 (0) Googledrive chunked upload: 43.7 % uploaded (35651584)
+0501.928 (0) Googledrive chunked upload: 44.9 % uploaded (36700160)
+0502.864 (0) Googledrive chunked upload: 46.2 % uploaded (37748736)
+0503.777 (0) Googledrive chunked upload: 47.5 % uploaded (38797312)
+0504.719 (0) Googledrive chunked upload: 48.8 % uploaded (39845888)
+0505.550 (0) Googledrive chunked upload: 50.1 % uploaded (40894464)
+0506.492 (0) Googledrive chunked upload: 51.4 % uploaded (41943040)
+0507.411 (0) Googledrive chunked upload: 52.7 % uploaded (42991616)
+0508.326 (0) Googledrive chunked upload: 53.9 % uploaded (44040192)
+0509.262 (0) Googledrive chunked upload: 55.2 % uploaded (45088768)
+0510.230 (0) Googledrive chunked upload: 56.5 % uploaded (46137344)
+0511.397 (0) Googledrive chunked upload: 57.8 % uploaded (47185920)
+0512.290 (0) Googledrive chunked upload: 59.1 % uploaded (48234496)
+0513.292 (0) Googledrive chunked upload: 60.4 % uploaded (49283072)
+0514.200 (0) Googledrive chunked upload: 61.6 % uploaded (50331648)
+0515.179 (0) Googledrive chunked upload: 62.9 % uploaded (51380224)
+0516.108 (0) Googledrive chunked upload: 64.2 % uploaded (52428800)
+0517.127 (0) Googledrive chunked upload: 65.5 % uploaded (53477376)
+0518.193 (0) Googledrive chunked upload: 66.8 % uploaded (54525952)
+0519.119 (0) Googledrive chunked upload: 68.1 % uploaded (55574528)
+0520.031 (0) Googledrive chunked upload: 69.4 % uploaded (56623104)
+0520.982 (0) Googledrive chunked upload: 70.6 % uploaded (57671680)
+0521.947 (0) Googledrive chunked upload: 71.9 % uploaded (58720256)
+0522.882 (0) The scheduled resumption is within 45 seconds - will reschedule
+0522.888 (0) Rescheduling resumption 1: moving to 611 seconds from now (1434108643)
+0522.896 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 566 + 45 = 611
+0522.898 (0) Googledrive chunked upload: 73.2 % uploaded (59768832)
+0523.863 (0) Googledrive chunked upload: 74.5 % uploaded (60817408)
+0524.769 (0) Googledrive chunked upload: 75.8 % uploaded (61865984)
+0525.682 (0) Googledrive chunked upload: 77.1 % uploaded (62914560)
+0526.554 (0) Googledrive chunked upload: 78.3 % uploaded (63963136)
+0527.519 (0) Googledrive chunked upload: 79.6 % uploaded (65011712)
+0528.448 (0) Googledrive chunked upload: 80.9 % uploaded (66060288)
+0529.400 (0) Googledrive chunked upload: 82.2 % uploaded (67108864)
+0530.404 (0) Googledrive chunked upload: 83.5 % uploaded (68157440)
+0531.278 (0) Googledrive chunked upload: 84.8 % uploaded (69206016)
+0532.228 (0) Googledrive chunked upload: 86 % uploaded (70254592)
+0533.108 (0) Googledrive chunked upload: 87.3 % uploaded (71303168)
+0534.094 (0) Googledrive chunked upload: 88.6 % uploaded (72351744)
+0535.017 (0) Googledrive chunked upload: 89.9 % uploaded (73400320)
+0535.906 (0) Googledrive chunked upload: 91.2 % uploaded (74448896)
+0536.800 (0) Googledrive chunked upload: 92.5 % uploaded (75497472)
+0537.730 (0) Googledrive chunked upload: 93.8 % uploaded (76546048)
+0538.658 (0) Googledrive chunked upload: 95 % uploaded (77594624)
+0539.744 (0) Googledrive chunked upload: 96.3 % uploaded (78643200)
+0540.737 (0) Googledrive chunked upload: 97.6 % uploaded (79691776)
+0541.692 (0) Googledrive chunked upload: 98.9 % uploaded (80740352)
+0543.217 (0) Googledrive chunked upload: 100 % uploaded (80740352)
+0543.220 (0) OK: Archive backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-uploads.zip uploaded to Google Drive in 75.13 seconds
+0543.223 (0) Recording as successfully uploaded: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-uploads.zip (944d8541c8b7cd2d411afa1f2e5911c9)
+0543.245 (0) Deleting local file: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-uploads.zip: OK
+0543.643 (0) Google Drive quota usage: used=1338.7 Mb, total=15360 Mb, available=14021.3 Mb
+0543.645 (0) backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-others.zip: Attempting to upload to Google Drive (into folder id: 0B0aSZwNLjO5WUF9HMllWOUU4dFU)
+0545.279 (0) Googledrive chunked upload: 100 % uploaded
+0545.283 (0) OK: Archive backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-others.zip uploaded to Google Drive in 1.64 seconds
+0545.286 (0) Recording as successfully uploaded: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-others.zip (00cfba874f3ccd23c67d392fe4d9a99b)
+0545.291 (0) Deleting local file: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-others.zip: OK
+0545.867 (0) Google Drive quota usage: used=1338.9 Mb, total=15360 Mb, available=14021.1 Mb
+0545.868 (0) backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-db.gz: Attempting to upload to Google Drive (into folder id: 0B0aSZwNLjO5WUF9HMllWOUU4dFU)
+0547.456 (0) Googledrive chunked upload: 100 % uploaded
+0547.460 (0) OK: Archive backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-db.gz uploaded to Google Drive in 1.59 seconds
+0547.462 (0) Recording as successfully uploaded: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-db.gz (baf0ca032e21cf4fe07ab1c2d96f6f67)
+0547.465 (0) Deleting local file: backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-db.gz: OK
+0547.469 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0547.471 (0) Number of backup sets in history: 3
+0547.473 (0) Examining backup set with datestamp: 1434107509 (Jun 12 2015 11:11:49)
+0547.474 (0) 1434107509: db: this set includes a database (backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-db.gz); db count is now 1
+0547.931 (0) 1434107509: this backup set remains non-empty (1/1); will retain in history
+0547.943 (0) Examining backup set with datestamp: 1434021097 (Jun 11 2015 11:11:37)
+0547.944 (0) 1434021097: db: this set includes a database (backup_2015-06-11-1311_Do_Arty_Stuff_3bf70f11799a-db.gz); db count is now 2
+0548.315 (0) 1434021097: this backup set remains non-empty (1/1); will retain in history
+0548.317 (0) Examining backup set with datestamp: 1433934688 (Jun 10 2015 11:11:28)
+0548.318 (0) 1433934688: db: this set includes a database (backup_2015-06-10-1311_Do_Arty_Stuff_e196eb112dea-db.gz); db count is now 3
+0548.319 (0) 1433934688: db: over retain limit (2); will delete this database
+0548.321 (0) Delete file: backup_2015-06-10-1311_Do_Arty_Stuff_e196eb112dea-db.gz, service=googledrive
+0549.162 (0) backup_2015-06-10-1311_Do_Arty_Stuff_e196eb112dea-db.gz: Deletion successful
+0549.166 (0) plugins: 1433934688: over retain limit (2); will delete this file (backup_2015-06-10-1311_Do_Arty_Stuff_e196eb112dea-plugins.zip)
+0549.167 (0) themes: 1433934688: over retain limit (2); will delete this file (backup_2015-06-10-1311_Do_Arty_Stuff_e196eb112dea-themes.zip)
+0549.168 (0) uploads: 1433934688: over retain limit (2); will delete this file (backup_2015-06-10-1311_Do_Arty_Stuff_e196eb112dea-uploads.zip)
+0549.169 (0) others: 1433934688: over retain limit (2); will delete this file (backup_2015-06-10-1311_Do_Arty_Stuff_e196eb112dea-others.zip)
+0549.170 (0) Delete file: backup_2015-06-10-1311_Do_Arty_Stuff_e196eb112dea-plugins.zip, service=googledrive
+0549.171 (0) Delete file: backup_2015-06-10-1311_Do_Arty_Stuff_e196eb112dea-themes.zip, service=googledrive
+0549.172 (0) Delete file: backup_2015-06-10-1311_Do_Arty_Stuff_e196eb112dea-uploads.zip, service=googledrive
+0549.173 (0) Delete file: backup_2015-06-10-1311_Do_Arty_Stuff_e196eb112dea-others.zip, service=googledrive
+0549.971 (0) backup_2015-06-10-1311_Do_Arty_Stuff_e196eb112dea-others.zip: Deletion successful
+0550.405 (0) backup_2015-06-10-1311_Do_Arty_Stuff_e196eb112dea-uploads.zip: Deletion successful
+0550.845 (0) backup_2015-06-10-1311_Do_Arty_Stuff_e196eb112dea-themes.zip: Deletion successful
+0551.319 (0) backup_2015-06-10-1311_Do_Arty_Stuff_e196eb112dea-plugins.zip: Deletion successful
+0551.322 (0) 1433934688: this backup set is now empty; will remove from history
+0551.323 (0) 1433934688: deleting log file (log.e196eb112dea.txt)
+0551.381 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0551.387 (0) Resume backup (add970c1969a, 0): finish run
+0551.389 (0) Decremented the semaphore (fd) by 1
+0551.390 (0) Semaphore (fd) unlocked
+0551.391 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0551.399 (0) The backup apparently succeeded and is now complete
+0551.400 (0) No email will/can be sent - the user has not configured an email address.
+0551.400 (0) El respaldo parece haber tenido éxito y ahora está completado

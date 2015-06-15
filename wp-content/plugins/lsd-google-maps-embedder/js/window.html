@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<head>
+    <title>LSD Google Maps Embedder</title> 
+    <script type="text/javascript" src="../../../../wp-includes/js/jquery/jquery.js"></script>
+    <script type="text/javascript" src="../../../../wp-includes/js/tinymce/tiny_mce_popup.js"></script>
+    <script type="text/javascript" src="lsd-gme-script.js"></script>
+    <script type="text/javascript">
+    jQuery(document).ready(function($) {
+        
+        $('#select-type').change(function() {
+            
+            $('.display-row').hide();
+            
+            id = $(this).val();
+            
+            $('.'+id+'-mode').show();
+            
+        });
+        
+    });
+    </script>
+    <style type="text/css">
+    input[type="text"], select {
+        padding:5px;
+        width:100%;
+        font-size:14px;
+    }
+    * {
+        font-size:14px;
+    }
+    .hidden {
+        display:none;
+    }
+    .insert-button {
+        display: inline-block;
+        font-size: 13px;
+        margin: 0;
+        cursor: pointer;
+        border-width: 1px;
+        border-style: solid;
+        -webkit-appearance: none;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        white-space: nowrap;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        background: #2ea2cc;
+        border-color: #0074a2;
+        -webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15);
+        box-shadow: inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15);
+        color: #fff !important;
+        text-decoration: none;
+        height: 30px;
+        line-height: 28px;
+        padding: 0 12px 2px;
+        text-align:center;
+        margin-left:10px;
+        margin-top:20px;
+    }
+    </style>
+</head>
+<body>
+<form id="lsd-gme-form">
+    <table width="100%" cellpadding="5" cellspacing="5">
+    <tr>
+        <td>Map type</td>
+        <td>
+            <select name="type" id="select-type">
+                <option value="place">Place mode</option>
+                <option value="directions">Directions mode</option>
+                <option value="search">Search mode</option>
+                <option value="view">View mode</option>
+            </select>
+        </td>
+    </tr>
+    
+    <!-- Place mode -->
+    <tr class="place-mode display-row">
+        <td>Location</td>
+        <td><input id="location1" type="text" name="location1" placeholder="i.e. Fisht Olympic Stadium,Sochi Russia"/></td>
+    </tr>
+    
+    <!-- Directions mode -->
+    <tr class="directions-mode display-row hidden">
+        <td>Origin</td>
+        <td><input id="origin" type="text" name="origin" placeholder="i.e. Fisht Olympic Stadium,Sochi Russia"/></td>
+    </tr>
+    <tr class="directions-mode display-row hidden">
+        <td>Destination</td>
+        <td><input id="location2" type="text" name="location2" placeholder="i.e. Google headquarters, Ireland"/></td>
+    </tr>
+    <tr class="directions-mode display-row hidden">
+        <td>Avoid tollways</td>
+        <td><input id="avoid-tolls" type="checkbox" name="avoid[tolls]" value="1"/></td>
+    </tr>
+    <tr class="directions-mode display-row hidden">
+        <td>Avoid highways</td>
+        <td><input id="avoid-highways" type="checkbox" name="avoid[highways]" value="1"/></td>
+    </tr>
+    <tr class="directions-mode display-row hidden">
+        <td>Avoid ferries</td>
+        <td><input id="avoid-ferries" type="checkbox" name="avoid[ferries]" value="1"/></td>
+    </tr>
+    
+    <!-- Search mode -->
+    <tr class="search-mode display-row hidden">
+        <td>Search for</td>
+        <td><input id="q" type="text" name="q" placeholder="i.e. Record stores in Seattle"/></td>
+    </tr>
+    <tr class="search-mode display-row hidden">
+        <td>Zoom (optional)</td>
+        <td><input id="zoom" type="text" name="zoom" placeholder="i.e. 12"/></td>
+    </tr>
+    
+    <!-- View mode -->
+    <tr class="view-mode display-row hidden">
+        <td>Coordinates</td>
+        <td><input id="center" type="text" name="center" placeholder="i.e. -33.8569,151.2152"/></td>
+    </tr>
+    <tr class="view-mode display-row hidden">
+        <td>Zoom</td>
+        <td><input id="zoom" type="text" name="zoom" placeholder="i.e. 12"/></td>
+    </tr>
+    <tr class="view-mode display-row hidden">
+        <td>Maptype</td>
+        <td>
+            <select id="maptype" name="maptype">
+                <option value="roadmap">Roadmap</option>
+                <option value="satellite">Sattelite</option>
+            </select>
+        </td>
+    </tr>
+    
+    </table>
+    
+    <a href="javascript:CreateLSDGME.insert(CreateLSDGME.e)" class="insert-button">Insert map</a>
+    
+</form>
+</body>
+</html>

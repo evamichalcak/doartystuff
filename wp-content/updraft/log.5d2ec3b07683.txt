@@ -1,0 +1,33 @@
+0000.003 () Opened log file at time: Fri, 10 Oct 2014 14:11:55 +0000 on http://www.doartystuff.com
+0000.003 () UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.19 WP: 3.9.2 PHP: 5.2.17 (Linux box657.bluehost.com 3.12.26.1406932904 #1 SMP Fri Aug 1 17:44:58 CDT 2014 x86_64) MySQL: 5.5.38-35.2-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 63.4M | 63.8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.236 () Free space on disk containing Updraft's temporary directory: 143747.3 Mb
+0000.237 () Restore job started. Entities to restore: db
+0000.260 () Entity: db
+0000.260 () restore_backup(backup_file=backup_2014-10-10-1600_Do_Arty_Stuff_013829b3a157-db.gz, type=db, info=a:0:{}, last_one=1)
+0000.260 () Descomprimiendo el respaldo...
+0000.262 () Database successfully unpacked
+0000.262 () Restaurando la base de datos... (en sitios grandes podría tardar mucho tiempo - si obtiene errores de exceso de tiempo de ejecución de comandos (timeout), lo que puede pasar si su proveedor de alojamiento (hosting) tiene configurado su alojamiento con recursos limitados, entonces debe usar un método diferente como phpMyAdmin)
+0000.262 () Using direct MySQL access; value of use_mysqli is: 0
+0000.271 () Max packet size: 256 Mb
+0000.272 () Backup created by: 1.9.19
+0000.273 () <strong>Backup of:</strong> http://www.doartystuff.com
+0000.273 () Content URL: http://www.doartystuff.com/wp-content
+0000.273 () Old table prefix: wp_mqjn_
+0000.274 () Site information: multisite=0
+0000.283 () New table prefix: wp_mqjn_
+0000.289 () Restoring table (MyISAM): wp_mqjn_options
+0000.426 () Restoring table (MyISAM): wp_mqjn_users
+0000.438 () Restoring table (MyISAM): wp_mqjn_usermeta
+0000.456 () Restoring table (MyISAM): wp_mqjn_commentmeta
+0000.482 () Restoring table (MyISAM): wp_mqjn_comments
+0000.497 () Restoring table (MyISAM): wp_mqjn_links
+0000.506 () Restoring table (MyISAM): wp_mqjn_postmeta
+0000.622 () Restoring table (MyISAM): wp_mqjn_posts
+0000.915 () Database queries processed: 50 in 0.65 seconds
+0000.917 () Restoring table (MyISAM): wp_mqjn_term_relationships
+0000.979 () Restoring table (MyISAM): wp_mqjn_term_taxonomy
+0001.015 () Restoring table (MyISAM): wp_mqjn_terms
+0001.034 () Finished: lines processed: 61 in 0.76 seconds
+0001.035 () Limpiando basura...
+0001.043 () Restore successful!
+0001.043 () Restore successful

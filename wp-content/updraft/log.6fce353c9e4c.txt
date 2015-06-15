@@ -1,0 +1,30 @@
+0000.003 () Opened log file at time: Tue, 11 Nov 2014 08:34:37 +0000 on http://www.doartystuff.com
+0000.003 () UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.26 WP: 3.9.2 PHP: 5.2.17 (Linux box657.bluehost.com 3.12.26.1406932904 #1 SMP Fri Aug 1 17:44:58 CDT 2014 x86_64) MySQL: 5.5.40-36.1-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 70.2M | 70.5M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.232 () Free space on disk containing Updraft's temporary directory: 135575.8 Mb
+0000.233 () Restore job started. Entities to restore: plugins, themes, uploads
+0000.336 () Entity: plugins
+0000.336 () restore_backup(backup_file=backup_2014-11-10-1448_Do_Arty_Stuff_800a46e21622-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:58:"/home4/playlabo/public_html/doartystuff/wp-content/plugins";s:11:"description";s:18:"Plugins (/plugins)";}, last_one=)
+0000.336 () Descomprimiendo el respaldo... (backup_2014-11-10-1448_Do_Arty_Stuff_800a46e21622-plugins.zip, 19.7 Mb)
+0004.303 () Moving old data: filesystem method / updraft_dir is potentially possible
+0004.676 () Moving old data: can potentially use wp_filesystem method / -old
+0004.676 () Quitando de en medio los datos antiguos...
+0009.188 () Moviendo el respaldo desempaquetado a su lugar...
+0010.602 () Limpiando basura...
+0010.603 () Entity: themes
+0010.603 () restore_backup(backup_file=backup_2014-11-10-1448_Do_Arty_Stuff_800a46e21622-themes.zip, type=themes, info=a:2:{s:4:"path";s:57:"/home4/playlabo/public_html/doartystuff/wp-content/themes";s:11:"description";s:15:"Temas (/themes)";}, last_one=)
+0010.603 () Descomprimiendo el respaldo... (backup_2014-11-10-1448_Do_Arty_Stuff_800a46e21622-themes.zip, 1.7 Mb)
+0010.738 () Moving old data: filesystem method / updraft_dir is potentially possible
+0010.738 () Moving old data: can potentially use wp_filesystem method / -old
+0010.738 () Quitando de en medio los datos antiguos...
+0010.891 () Moviendo el respaldo desempaquetado a su lugar...
+0010.978 () Limpiando basura...
+0010.978 () Entity: uploads
+0010.978 () restore_backup(backup_file=backup_2014-11-10-1448_Do_Arty_Stuff_800a46e21622-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:58:"/home4/playlabo/public_html/doartystuff/wp-content/uploads";s:11:"description";s:27:"Ficheros subidos (/uploads)";}, last_one=1)
+0010.978 () Descomprimiendo el respaldo... (backup_2014-11-10-1448_Do_Arty_Stuff_800a46e21622-uploads.zip, 47.3 Mb)
+0011.784 () Moving old data: filesystem method / updraft_dir is potentially possible
+0011.785 () Moving old data: can potentially use wp_filesystem method / -old
+0011.785 () Quitando de en medio los datos antiguos...
+0012.342 () Moviendo el respaldo desempaquetado a su lugar...
+0012.624 () Limpiando basura...
+0012.628 () Restore successful!
+0012.628 () Restore successful

@@ -1,0 +1,349 @@
+0000.000 (0) Opened log file at time: Fri, 10 Oct 2014 13:46:53 +0000 on http://www.doartystuff.com
+0000.002 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.19 WP: 3.9.2 PHP: 5.2.17 (Linux box657.bluehost.com 3.12.26.1406932904 #1 SMP Fri Aug 1 17:44:58 CDT 2014 x86_64) MySQL: 5.5.38-35.2-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 500M (used: 53.9M | 54.3M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.319 (0) Free space on disk containing Updraft's temporary directory: 143529.7 Mb
+0000.330 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.333 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.379 (0) Requesting semaphore lock (fd)
+0000.383 (0) Set semaphore last lock (fd) time to 2014-10-10 13:46:54
+0000.387 (0) Semaphore lock (fd) complete
+0000.398 (0) Backup run: resumption=0, nonce=a8365f6df5ac, begun at=1412948813 (1s ago), job type=backup
+0000.405 (0) Scheduling a resumption (1) after 300 seconds (1412949114) in case this run gets aborted
+0000.455 (0) Checking if we have a zip executable available
+0000.457 (0) Testing: /usr/bin/zip
+0000.504 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.508 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.509 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.510 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=127) (out=105) (deflated 17%)
+0000.511 (0) Output: total bytes=127, compressed=105 -> 17% savings
+0000.530 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=134) (out=109) (deflated 19%)
+0000.532 (0) Output: total bytes=261, compressed=214 -> 18% savings
+0000.552 (0) Working binary zip found: /usr/bin/zip
+0000.555 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.556 (0) Creation of backups of directories: beginning
+0000.559 (0) Beginning creation of dump of plugins (split every: 500 Mb)
+0000.981 (0) Total entities for the zip file: 328 directories, 2422 files (0 skipped as non-modified), 45.3 Mb
+0000.994 (0) Zip: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-plugins.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0001.005 (0) Zip: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-plugins.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0001.011 (0) Zip: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-plugins.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0001.017 (0) Zip: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-plugins.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0001.023 (0) Zip: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-plugins.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0001.025 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (18 Mb, 2422 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0003.017 (0) backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-plugins.zip.tmp: size is now: 6.50 Mb
+0003.021 (0) Zip: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-plugins.zip.tmp: 600 files added (on-disk size: 6655.6 Kb)
+0003.025 (0) Zip: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-plugins.zip.tmp: 700 files added (on-disk size: 6655.6 Kb)
+0003.029 (0) Zip: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-plugins.zip.tmp: 800 files added (on-disk size: 6655.6 Kb)
+0003.034 (0) Zip: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-plugins.zip.tmp: 900 files added (on-disk size: 6655.6 Kb)
+0003.039 (0) Zip: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-plugins.zip.tmp: 1000 files added (on-disk size: 6655.6 Kb)
+0003.040 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.9 Mb, 2422 files batched, 501 (1002) added so far); re-opening (prior size: 6655.6 Kb)
+0004.086 (0) backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-plugins.zip.tmp: size is now: 9.70 Mb
+0004.094 (0) Zip: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-plugins.zip.tmp: 1100 files added (on-disk size: 9928.6 Kb)
+0004.100 (0) Zip: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-plugins.zip.tmp: 1200 files added (on-disk size: 9928.6 Kb)
+0004.106 (0) Zip: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-plugins.zip.tmp: 1300 files added (on-disk size: 9928.6 Kb)
+0004.112 (0) Zip: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-plugins.zip.tmp: 1400 files added (on-disk size: 9928.6 Kb)
+0004.117 (0) Zip: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-plugins.zip.tmp: 1500 files added (on-disk size: 9928.6 Kb)
+0004.118 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.3 Mb, 2422 files batched, 501 (1503) added so far); re-opening (prior size: 9928.6 Kb)
+0004.311 (0) Zip: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-plugins.zip.tmp: 1600 files added (on-disk size: 10627.1 Kb)
+0004.316 (0) Zip: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-plugins.zip.tmp: 1700 files added (on-disk size: 10627.1 Kb)
+0004.329 (0) Zip: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-plugins.zip.tmp: 1800 files added (on-disk size: 10627.1 Kb)
+0004.335 (0) Zip: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-plugins.zip.tmp: 1900 files added (on-disk size: 10627.1 Kb)
+0004.340 (0) Zip: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-plugins.zip.tmp: 2000 files added (on-disk size: 10627.1 Kb)
+0004.342 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.5 Mb, 2422 files batched, 501 (2004) added so far); re-opening (prior size: 10627.1 Kb)
+0004.657 (0) backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-plugins.zip.tmp: size is now: 12.70 Mb
+0004.662 (0) Zip: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-plugins.zip.tmp: 2100 files added (on-disk size: 12974.2 Kb)
+0004.666 (0) Zip: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-plugins.zip.tmp: 2200 files added (on-disk size: 12974.2 Kb)
+0004.669 (0) Zip: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-plugins.zip.tmp: 2300 files added (on-disk size: 12974.2 Kb)
+0004.674 (0) Zip: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-plugins.zip.tmp: 2400 files added (on-disk size: 12974.2 Kb)
+0005.507 (0) backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-plugins.zip.tmp: size is now: 17.20 Mb
+0005.645 (0) Created plugins zip (0) - 17617.2 Kb in 4.9 s (3600.9 Kb/s) (SHA1 checksum: cb88c374c482fd426aba67f2ee230c8ad0aa5d46)
+0005.649 (0) Beginning creation of dump of themes (split every: 500 Mb)
+0005.844 (0) Total entities for the zip file: 32 directories, 212 files (0 skipped as non-modified), 2.6 Mb
+0005.848 (0) Zip: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-themes.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0005.854 (0) Zip: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-themes.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0006.003 (0) backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-themes.zip.tmp: size is now: 1.70 Mb
+0006.020 (0) Created themes zip (0) - 1736.3 Kb in 0.2 s (8338.8 Kb/s) (SHA1 checksum: 1edac616803916043bae95e5288e33e3772a5147)
+0006.023 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0006.025 (0) Looking for candidates to back up in: /home4/playlabo/public_html/doartystuff/wp-content/uploads
+0006.052 (0) finding files: 2014: adding to list (1)
+0006.053 (0) finding files: tribe-importer: adding to list (2)
+0006.054 (0) Beginning creation of dump of uploads (split every: 500 Mb)
+0006.376 (0) Total entities for the zip file: 5 directories, 619 files (0 skipped as non-modified), 44 Mb
+0006.380 (0) Zip: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-uploads.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0006.383 (0) Zip: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-uploads.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0006.386 (0) Zip: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-uploads.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0006.388 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 Mb added on this batch (25 Mb, 619 files batched, 331 (331) added so far); re-opening (prior size: 0 Kb)
+0011.796 (0) backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-uploads.zip.tmp: size is now: 24.50 Mb
+0011.822 (0) A useful amount of data was added after this amount of zip processing: 5.7 s (normalised: 5.7 s, rate: 4501.2 Kb/s)
+0011.824 (0) Performance is good - will increase the amount of data we attempt to batch (time=5.69767093658, normalised_time=5.68730923123, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=27655679)
+0011.829 (0) Zip: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-uploads.zip.tmp: 400 files added (on-disk size: 25104.7 Kb)
+0011.835 (0) Zip: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-uploads.zip.tmp: 500 files added (on-disk size: 25104.7 Kb)
+0011.841 (0) Zip: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-uploads.zip.tmp: 600 files added (on-disk size: 25104.7 Kb)
+0017.509 (0) backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-uploads.zip.tmp: size is now: 43.20 Mb
+0017.755 (0) Created uploads zip (0) - 44198.5 Kb in 11.4 s (3861.7 Kb/s) (SHA1 checksum: e39a9a67a7e075e673432b87a728e891b8741ff8)
+0017.758 (0) Beginning backup of other directories found in the content directory (index: 0)
+0017.759 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups
+0017.760 (0) Looking for candidates to back up in: /home4/playlabo/public_html/doartystuff/wp-content
+0017.761 (0) finding files: themes-old: adding to list (1)
+0017.762 (0) finding files: install.php: adding to list (2)
+0017.762 (0) finding files: index.php-old: adding to list (3)
+0017.763 (0) finding files: uploads: skipping: this is the uploads directory
+0017.764 (0) finding files: languages: adding to list (4)
+0017.764 (0) finding files: plugins-old: adding to list (5)
+0017.765 (0) finding files: index.php: adding to list (6)
+0017.765 (0) finding files: themes: skipping: this is the themes directory
+0017.766 (0) finding files: upgrade: skipping: excluded by options
+0017.766 (0) finding files: install.php-old: adding to list (7)
+0017.767 (0) finding files: plugins: skipping: this is the plugins directory
+0017.767 (0) finding files: languages-old: adding to list (8)
+0017.768 (0) finding files: updraft: skipping: this is the updraft directory
+0018.488 (0) Total entities for the zip file: 8 directories, 30 files (0 skipped as non-modified), 0.7 Mb
+0018.666 (0) backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-others.zip.tmp: size is now: 0.30 Mb
+0018.671 (0) Created others zip (0) - 271.8 Kb in 0.2 s (1339.6 Kb/s) (SHA1 checksum: 15d2d5da186d01606439b2c551e4fc6fb481d3aa)
+0018.676 (0) Saving backup status to database (elements: 8)
+0018.680 (0) Beginning creation of database dump (WordPress DB)
+0018.683 (0) Testing: /usr/bin/mysqldump
+0018.744 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0018.750 (0) Table wp_mqjn_options: Total expected rows (approximate): 452
+0018.891 (0) Table wp_mqjn_options: Total rows added: 449 in 0.14 seconds
+0018.894 (0) Table wp_mqjn_options: finishing file (backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-db-table-wp_mqjn_options.table.gz - 154.8 Kb)
+0018.898 (0) Table wp_mqjn_users: Total expected rows (approximate): 2
+0018.902 (0) Table wp_mqjn_users: Total rows added: 2 in 0.00 seconds
+0018.903 (0) Table wp_mqjn_users: finishing file (backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-db-table-wp_mqjn_users.table.gz - 0.6 Kb)
+0018.908 (0) Table wp_mqjn_usermeta: Total expected rows (approximate): 35
+0018.912 (0) Table wp_mqjn_usermeta: Total rows added: 35 in 0.00 seconds
+0018.914 (0) Table wp_mqjn_usermeta: finishing file (backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-db-table-wp_mqjn_usermeta.table.gz - 1 Kb)
+0018.920 (0) Table wp_mqjn_commentmeta: Total expected rows (approximate): 13
+0018.929 (0) Table wp_mqjn_commentmeta: Total rows added: 13 in 0.01 seconds
+0018.931 (0) Table wp_mqjn_commentmeta: finishing file (backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-db-table-wp_mqjn_commentmeta.table.gz - 2.6 Kb)
+0018.934 (0) Table wp_mqjn_comments: Total expected rows (approximate): 4
+0018.939 (0) Table wp_mqjn_comments: Total rows added: 4 in 0.00 seconds
+0018.940 (0) Table wp_mqjn_comments: finishing file (backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-db-table-wp_mqjn_comments.table.gz - 2.3 Kb)
+0018.946 (0) Table wp_mqjn_links: Total expected rows (approximate): 0
+0018.949 (0) Table wp_mqjn_links: Total rows added: 0 in 0.00 seconds
+0018.950 (0) Table wp_mqjn_links: finishing file (backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-db-table-wp_mqjn_links.table.gz - 0.4 Kb)
+0018.954 (0) Table wp_mqjn_postmeta: Total expected rows (approximate): 8352
+0019.012 (0) Table wp_mqjn_postmeta: binary mysqldump finished (writes: 32) in 0.06 seconds
+0019.014 (0) Table wp_mqjn_postmeta: finishing file (backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-db-table-wp_mqjn_postmeta.table.gz - 73.1 Kb)
+0019.019 (0) Table wp_mqjn_posts: Total expected rows (approximate): 904
+0019.173 (0) Table wp_mqjn_posts: Total rows added: 904 in 0.15 seconds
+0019.175 (0) Table wp_mqjn_posts: finishing file (backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-db-table-wp_mqjn_posts.table.gz - 143.6 Kb)
+0019.178 (0) Table wp_mqjn_term_relationships: Total expected rows (approximate): 314
+0019.187 (0) Table wp_mqjn_term_relationships: Total rows added: 314 in 0.01 seconds
+0019.188 (0) Table wp_mqjn_term_relationships: finishing file (backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-db-table-wp_mqjn_term_relationships.table.gz - 1.2 Kb)
+0019.192 (0) Table wp_mqjn_term_taxonomy: Total expected rows (approximate): 41
+0019.196 (0) Table wp_mqjn_term_taxonomy: Total rows added: 41 in 0.00 seconds
+0019.197 (0) Table wp_mqjn_term_taxonomy: finishing file (backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-db-table-wp_mqjn_term_taxonomy.table.gz - 0.7 Kb)
+0019.201 (0) Table wp_mqjn_terms: Total expected rows (approximate): 40
+0019.205 (0) Table wp_mqjn_terms: Total rows added: 40 in 0.00 seconds
+0019.206 (0) Table wp_mqjn_terms: finishing file (backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-db-table-wp_mqjn_terms.table.gz - 1 Kb)
+0019.209 (0) backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-db-table-wp_mqjn_options.table.gz (1/11): adding to final database dump
+0019.254 (0) backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-db-table-wp_mqjn_users.table.gz (2/11): adding to final database dump
+0019.256 (0) backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-db-table-wp_mqjn_usermeta.table.gz (3/11): adding to final database dump
+0019.257 (0) backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-db-table-wp_mqjn_commentmeta.table.gz (4/11): adding to final database dump
+0019.258 (0) backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-db-table-wp_mqjn_comments.table.gz (5/11): adding to final database dump
+0019.259 (0) backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-db-table-wp_mqjn_links.table.gz (6/11): adding to final database dump
+0019.260 (0) backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-db-table-wp_mqjn_postmeta.table.gz (7/11): adding to final database dump
+0019.285 (0) backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-db-table-wp_mqjn_posts.table.gz (8/11): adding to final database dump
+0019.348 (0) backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-db-table-wp_mqjn_term_relationships.table.gz (9/11): adding to final database dump
+0019.352 (0) backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-db-table-wp_mqjn_term_taxonomy.table.gz (10/11): adding to final database dump
+0019.354 (0) backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-db-table-wp_mqjn_terms.table.gz (11/11): adding to final database dump
+0019.356 (0) backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-db.gz: finished writing out complete database file (368 Kb)
+0019.363 (0) Total database tables backed up: 11 (backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-db.gz, size: 386754, checksum (SHA1): c11f905ddf3d57c736839e764993677ea0722ad6)
+0019.365 (0) Saving backup history
+0019.371 (0) backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0019.372 (0) backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0019.373 (0) backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0019.374 (0) backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-others.zip: others: This file has not yet been successfully uploaded: will queue
+0019.375 (0) backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-db.gz: db: This file has not yet been successfully uploaded: will queue
+0019.379 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0019.383 (0) Cloud backup selection: googledrive
+0019.384 (0) Beginning dispatch of backup to remote (googledrive)
+0019.404 (0) Google Drive: requesting access token: client_id=507131177963-1aaj638ar11j1arlba7tfuc7imd8l82m.apps.googleusercontent.com
+0019.614 (0) Google Drive: successfully obtained access token
+0021.392 (0) Google Drive quota usage: used=125.1 Mb, total=15360 Mb, available=15234.9 Mb
+0021.420 (0) backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-plugins.zip: Attempting to upload to Google Drive (into folder id: 0B0aSZwNLjO5WUF9HMllWOUU4dFU)
+0022.500 (0) Googledrive chunked upload: 2.9 % uploaded (524288)
+0023.221 (0) Googledrive chunked upload: 5.8 % uploaded (1048576)
+0023.983 (0) Googledrive chunked upload: 8.7 % uploaded (1572864)
+0024.754 (0) Googledrive chunked upload: 11.6 % uploaded (2097152)
+0025.543 (0) Googledrive chunked upload: 14.5 % uploaded (2621440)
+0026.289 (0) Googledrive chunked upload: 17.4 % uploaded (3145728)
+0027.357 (0) Googledrive chunked upload: 20.3 % uploaded (3670016)
+0028.136 (0) Googledrive chunked upload: 23.3 % uploaded (4194304)
+0028.972 (0) Googledrive chunked upload: 26.2 % uploaded (4718592)
+0029.857 (0) Googledrive chunked upload: 29.1 % uploaded (5242880)
+0030.705 (0) Googledrive chunked upload: 32 % uploaded (5767168)
+0031.471 (0) Googledrive chunked upload: 34.9 % uploaded (6291456)
+0032.278 (0) Googledrive chunked upload: 37.8 % uploaded (6815744)
+0033.072 (0) Googledrive chunked upload: 40.7 % uploaded (7340032)
+0033.989 (0) Googledrive chunked upload: 43.6 % uploaded (7864320)
+0034.903 (0) Googledrive chunked upload: 46.5 % uploaded (8388608)
+0036.305 (0) Googledrive chunked upload: 49.4 % uploaded (8912896)
+0036.964 (0) Googledrive chunked upload: 52.3 % uploaded (9437184)
+0037.739 (0) Googledrive chunked upload: 55.2 % uploaded (9961472)
+0038.453 (0) Googledrive chunked upload: 58.1 % uploaded (10485760)
+0039.190 (0) Googledrive chunked upload: 61 % uploaded (11010048)
+0039.879 (0) Googledrive chunked upload: 63.9 % uploaded (11534336)
+0040.591 (0) Googledrive chunked upload: 66.8 % uploaded (12058624)
+0041.311 (0) Googledrive chunked upload: 69.8 % uploaded (12582912)
+0042.199 (0) Googledrive chunked upload: 72.7 % uploaded (13107200)
+0043.325 (0) Googledrive chunked upload: 75.6 % uploaded (13631488)
+0043.992 (0) Googledrive chunked upload: 78.5 % uploaded (14155776)
+0044.842 (0) Googledrive chunked upload: 81.4 % uploaded (14680064)
+0045.698 (0) Googledrive chunked upload: 84.3 % uploaded (15204352)
+0046.466 (0) Googledrive chunked upload: 87.2 % uploaded (15728640)
+0047.185 (0) Googledrive chunked upload: 90.1 % uploaded (16252928)
+0048.018 (0) Googledrive chunked upload: 93 % uploaded (16777216)
+0049.015 (0) Googledrive chunked upload: 95.9 % uploaded (17301504)
+0049.874 (0) Googledrive chunked upload: 98.8 % uploaded (17825792)
+0052.311 (0) Googledrive chunked upload: 100 % uploaded (17825792)
+0052.323 (0) OK: Archive backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-plugins.zip uploaded to Google Drive in 30.9 seconds
+0052.327 (0) Recording as successfully uploaded: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-plugins.zip (c17ebb58911bb75da5c34723e9434029)
+0052.340 (0) Deleting local file: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-plugins.zip: OK
+0052.726 (0) Google Drive quota usage: used=125.1 Mb, total=15360 Mb, available=15234.9 Mb
+0052.729 (0) backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-themes.zip: Attempting to upload to Google Drive (into folder id: 0B0aSZwNLjO5WUF9HMllWOUU4dFU)
+0053.820 (0) Googledrive chunked upload: 29.5 % uploaded (524288)
+0054.630 (0) Googledrive chunked upload: 59 % uploaded (1048576)
+0055.410 (0) Googledrive chunked upload: 88.5 % uploaded (1572864)
+0056.822 (0) Googledrive chunked upload: 100 % uploaded (1572864)
+0056.851 (0) OK: Archive backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-themes.zip uploaded to Google Drive in 4.12 seconds
+0056.867 (0) Recording as successfully uploaded: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-themes.zip (e354b168b97118d78dd06c95d7734972)
+0056.904 (0) Deleting local file: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-themes.zip: OK
+0057.368 (0) Google Drive quota usage: used=144 Mb, total=15360 Mb, available=15216 Mb
+0057.371 (0) backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-uploads.zip: Attempting to upload to Google Drive (into folder id: 0B0aSZwNLjO5WUF9HMllWOUU4dFU)
+0059.075 (0) Googledrive chunked upload: 1.2 % uploaded (524288)
+0059.851 (0) Googledrive chunked upload: 2.3 % uploaded (1048576)
+0060.576 (0) Googledrive chunked upload: 3.5 % uploaded (1572864)
+0061.286 (0) Googledrive chunked upload: 4.6 % uploaded (2097152)
+0062.043 (0) Googledrive chunked upload: 5.8 % uploaded (2621440)
+0062.825 (0) Googledrive chunked upload: 7 % uploaded (3145728)
+0063.707 (0) Googledrive chunked upload: 8.1 % uploaded (3670016)
+0064.487 (0) Googledrive chunked upload: 9.3 % uploaded (4194304)
+0065.581 (0) Googledrive chunked upload: 10.4 % uploaded (4718592)
+0066.325 (0) Googledrive chunked upload: 11.6 % uploaded (5242880)
+0067.074 (0) Googledrive chunked upload: 12.7 % uploaded (5767168)
+0068.390 (0) Googledrive chunked upload: 13.9 % uploaded (6291456)
+0069.360 (0) Googledrive chunked upload: 15.1 % uploaded (6815744)
+0070.294 (0) Googledrive chunked upload: 16.2 % uploaded (7340032)
+0071.137 (0) Googledrive chunked upload: 17.4 % uploaded (7864320)
+0071.951 (0) Googledrive chunked upload: 18.5 % uploaded (8388608)
+0073.156 (0) Googledrive chunked upload: 19.7 % uploaded (8912896)
+0074.213 (0) Googledrive chunked upload: 20.9 % uploaded (9437184)
+0074.929 (0) Googledrive chunked upload: 22 % uploaded (9961472)
+0076.040 (0) Googledrive chunked upload: 23.2 % uploaded (10485760)
+0076.880 (0) Googledrive chunked upload: 24.3 % uploaded (11010048)
+0077.970 (0) Googledrive chunked upload: 25.5 % uploaded (11534336)
+0078.836 (0) Googledrive chunked upload: 26.6 % uploaded (12058624)
+0079.614 (0) Googledrive chunked upload: 27.8 % uploaded (12582912)
+0080.376 (0) Googledrive chunked upload: 29 % uploaded (13107200)
+0081.175 (0) Googledrive chunked upload: 30.1 % uploaded (13631488)
+0082.006 (0) Googledrive chunked upload: 31.3 % uploaded (14155776)
+0082.754 (0) Googledrive chunked upload: 32.4 % uploaded (14680064)
+0083.670 (0) Googledrive chunked upload: 33.6 % uploaded (15204352)
+0084.474 (0) Googledrive chunked upload: 34.8 % uploaded (15728640)
+0085.440 (0) Googledrive chunked upload: 35.9 % uploaded (16252928)
+0086.259 (0) Googledrive chunked upload: 37.1 % uploaded (16777216)
+0086.998 (0) Googledrive chunked upload: 38.2 % uploaded (17301504)
+0087.874 (0) Googledrive chunked upload: 39.4 % uploaded (17825792)
+0088.632 (0) Googledrive chunked upload: 40.5 % uploaded (18350080)
+0089.393 (0) Googledrive chunked upload: 41.7 % uploaded (18874368)
+0090.173 (0) Googledrive chunked upload: 42.9 % uploaded (19398656)
+0090.946 (0) Googledrive chunked upload: 44 % uploaded (19922944)
+0091.702 (0) Googledrive chunked upload: 45.2 % uploaded (20447232)
+0092.469 (0) Googledrive chunked upload: 46.3 % uploaded (20971520)
+0093.386 (0) Googledrive chunked upload: 47.5 % uploaded (21495808)
+0094.215 (0) Googledrive chunked upload: 48.7 % uploaded (22020096)
+0094.989 (0) Googledrive chunked upload: 49.8 % uploaded (22544384)
+0095.703 (0) Googledrive chunked upload: 51 % uploaded (23068672)
+0096.618 (0) Googledrive chunked upload: 52.1 % uploaded (23592960)
+0097.340 (0) Googledrive chunked upload: 53.3 % uploaded (24117248)
+0098.068 (0) Googledrive chunked upload: 54.4 % uploaded (24641536)
+0098.869 (0) Googledrive chunked upload: 55.6 % uploaded (25165824)
+0099.659 (0) Googledrive chunked upload: 56.8 % uploaded (25690112)
+0100.471 (0) Googledrive chunked upload: 57.9 % uploaded (26214400)
+0101.311 (0) Googledrive chunked upload: 59.1 % uploaded (26738688)
+0102.125 (0) Googledrive chunked upload: 60.2 % uploaded (27262976)
+0102.859 (0) Googledrive chunked upload: 61.4 % uploaded (27787264)
+0103.655 (0) Googledrive chunked upload: 62.6 % uploaded (28311552)
+0104.405 (0) Googledrive chunked upload: 63.7 % uploaded (28835840)
+0105.152 (0) Googledrive chunked upload: 64.9 % uploaded (29360128)
+0105.980 (0) Googledrive chunked upload: 66 % uploaded (29884416)
+0106.960 (0) Googledrive chunked upload: 67.2 % uploaded (30408704)
+0107.766 (0) Googledrive chunked upload: 68.3 % uploaded (30932992)
+0108.752 (0) Googledrive chunked upload: 69.5 % uploaded (31457280)
+0109.587 (0) Googledrive chunked upload: 70.7 % uploaded (31981568)
+0110.411 (0) Googledrive chunked upload: 71.8 % uploaded (32505856)
+0111.147 (0) Googledrive chunked upload: 73 % uploaded (33030144)
+0112.008 (0) Googledrive chunked upload: 74.1 % uploaded (33554432)
+0112.799 (0) Googledrive chunked upload: 75.3 % uploaded (34078720)
+0113.766 (0) Googledrive chunked upload: 76.5 % uploaded (34603008)
+0114.523 (0) Googledrive chunked upload: 77.6 % uploaded (35127296)
+0115.248 (0) Googledrive chunked upload: 78.8 % uploaded (35651584)
+0115.990 (0) Googledrive chunked upload: 79.9 % uploaded (36175872)
+0116.884 (0) Googledrive chunked upload: 81.1 % uploaded (36700160)
+0117.662 (0) Googledrive chunked upload: 82.2 % uploaded (37224448)
+0118.645 (0) Googledrive chunked upload: 83.4 % uploaded (37748736)
+0119.558 (0) Googledrive chunked upload: 84.6 % uploaded (38273024)
+0120.480 (0) Googledrive chunked upload: 85.7 % uploaded (38797312)
+0121.314 (0) Googledrive chunked upload: 86.9 % uploaded (39321600)
+0122.128 (0) Googledrive chunked upload: 88 % uploaded (39845888)
+0122.890 (0) Googledrive chunked upload: 89.2 % uploaded (40370176)
+0123.890 (0) Googledrive chunked upload: 90.4 % uploaded (40894464)
+0124.660 (0) Googledrive chunked upload: 91.5 % uploaded (41418752)
+0126.595 (0) Googledrive chunked upload: 92.7 % uploaded (41943040)
+0127.609 (0) Googledrive chunked upload: 93.8 % uploaded (42467328)
+0128.392 (0) Googledrive chunked upload: 95 % uploaded (42991616)
+0129.276 (0) Googledrive chunked upload: 96.1 % uploaded (43515904)
+0130.079 (0) Googledrive chunked upload: 97.3 % uploaded (44040192)
+0130.841 (0) Googledrive chunked upload: 98.5 % uploaded (44564480)
+0131.640 (0) Googledrive chunked upload: 99.6 % uploaded (45088768)
+0133.128 (0) Googledrive chunked upload: 100 % uploaded (45088768)
+0133.137 (0) OK: Archive backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-uploads.zip uploaded to Google Drive in 75.76 seconds
+0133.140 (0) Recording as successfully uploaded: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-uploads.zip (34df9838817034550b18d3e171a1bd91)
+0133.181 (0) Deleting local file: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-uploads.zip: OK
+0133.574 (0) Google Drive quota usage: used=187.2 Mb, total=15360 Mb, available=15172.8 Mb
+0133.577 (0) backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-others.zip: Attempting to upload to Google Drive (into folder id: 0B0aSZwNLjO5WUF9HMllWOUU4dFU)
+0135.415 (0) Googledrive chunked upload: 100 % uploaded
+0135.428 (0) OK: Archive backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-others.zip uploaded to Google Drive in 1.85 seconds
+0135.431 (0) Recording as successfully uploaded: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-others.zip (1ec93202a1e56350789f419c063bd8bb)
+0135.435 (0) Deleting local file: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-others.zip: OK
+0135.843 (0) Google Drive quota usage: used=187.5 Mb, total=15360 Mb, available=15172.5 Mb
+0135.844 (0) backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-db.gz: Attempting to upload to Google Drive (into folder id: 0B0aSZwNLjO5WUF9HMllWOUU4dFU)
+0137.770 (0) Googledrive chunked upload: 100 % uploaded
+0137.828 (0) OK: Archive backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-db.gz uploaded to Google Drive in 1.98 seconds
+0137.830 (0) Recording as successfully uploaded: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-db.gz (9b9cf0ad5bad901be040ea245370ddb7)
+0137.842 (0) Deleting local file: backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-db.gz: OK
+0137.845 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0137.847 (0) Number of backup sets in history: 3
+0137.854 (0) Examining backup set with datestamp: 1412948813 (Oct 10 2014 13:46:53)
+0137.875 (0) 1412948813: db: this set includes a database (backup_2014-10-10-1546_Do_Arty_Stuff_a8365f6df5ac-db.gz); db count is now 1
+0138.471 (0) 1412948813: this backup set remains non-empty (1/1); will retain in history
+0138.497 (0) Examining backup set with datestamp: 1412932369 (Oct 10 2014 09:12:49)
+0138.510 (0) 1412932369: db: this set includes a database (backup_2014-10-10-1112_Do_Arty_Stuff_cada2872d559-db.gz); db count is now 2
+0138.890 (0) 1412932369: this backup set remains non-empty (1/1); will retain in history
+0138.900 (0) Examining backup set with datestamp: 1412862535 (Oct 09 2014 13:48:55)
+0138.901 (0) 1412862535: db: this set includes a database (backup_2014-10-09-1548_Do_Arty_Stuff_25f352053625-db.gz); db count is now 3
+0138.905 (0) 1412862535: db: over retain limit (2); will delete this database
+0138.906 (0) Delete file: backup_2014-10-09-1548_Do_Arty_Stuff_25f352053625-db.gz, service=googledrive
+0139.982 (0) backup_2014-10-09-1548_Do_Arty_Stuff_25f352053625-db.gz: Deletion successful
+0139.985 (0) plugins: 1412862535: over retain limit (2); will delete this file (backup_2014-10-09-1548_Do_Arty_Stuff_25f352053625-plugins.zip)
+0139.989 (0) themes: 1412862535: over retain limit (2); will delete this file (backup_2014-10-09-1548_Do_Arty_Stuff_25f352053625-themes.zip)
+0139.991 (0) uploads: 1412862535: over retain limit (2); will delete this file (backup_2014-10-09-1548_Do_Arty_Stuff_25f352053625-uploads.zip)
+0139.992 (0) others: 1412862535: over retain limit (2); will delete this file (backup_2014-10-09-1548_Do_Arty_Stuff_25f352053625-others.zip)
+0139.995 (0) Delete file: backup_2014-10-09-1548_Do_Arty_Stuff_25f352053625-plugins.zip, service=googledrive
+0140.000 (0) Delete file: backup_2014-10-09-1548_Do_Arty_Stuff_25f352053625-themes.zip, service=googledrive
+0140.001 (0) Delete file: backup_2014-10-09-1548_Do_Arty_Stuff_25f352053625-uploads.zip, service=googledrive
+0140.002 (0) Delete file: backup_2014-10-09-1548_Do_Arty_Stuff_25f352053625-others.zip, service=googledrive
+0140.880 (0) backup_2014-10-09-1548_Do_Arty_Stuff_25f352053625-others.zip: Deletion successful
+0141.472 (0) backup_2014-10-09-1548_Do_Arty_Stuff_25f352053625-uploads.zip: Deletion successful
+0142.022 (0) backup_2014-10-09-1548_Do_Arty_Stuff_25f352053625-themes.zip: Deletion successful
+0143.642 (0) backup_2014-10-09-1548_Do_Arty_Stuff_25f352053625-plugins.zip: Deletion successful
+0143.654 (0) 1412862535: this backup set is now empty; will remove from history
+0143.660 (0) 1412862535: deleting log file (log.25f352053625.txt)
+0143.962 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0143.982 (0) Resume backup (a8365f6df5ac, 0): finish run
+0143.986 (0) Decremented the semaphore (fd) by 1
+0143.989 (0) Semaphore (fd) unlocked
+0143.991 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0144.007 (0) The backup apparently succeeded and is now complete
+0144.024 (0) No email will/can be sent - the user has not configured an email address.
+0144.026 (0) El respaldo parece haber tenido éxito y ahora está completado

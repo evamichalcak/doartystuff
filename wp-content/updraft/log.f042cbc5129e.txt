@@ -1,0 +1,863 @@
+0000.052 (0) Opened log file at time: Sat, 13 Jun 2015 11:08:34 +0000 on http://www.doartystuff.com
+0000.055 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.64 WP: 3.9.6 PHP: 5.2.17 (Linux box657.bluehost.com 3.12.35.1418868052 #1 SMP Wed Dec 17 20:04:02 CST 2014 x86_64) MySQL: 5.5.42-37.1-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 500M (used: 63.7M | 64.3M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.410 (0) Free space on disk containing Updraft's temporary directory: 114742.5 Mb
+0000.489 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.490 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.531 (0) Requesting semaphore lock (fd)
+0000.533 (0) Set semaphore last lock (fd) time to 2015-06-13 11:08:35
+0000.534 (0) Semaphore lock (fd) complete
+0000.539 (0) Backup run: resumption=0, nonce=f042cbc5129e, begun at=1434193714 (1s ago), job type=backup
+0000.540 (0) Scheduling a resumption (1) after 300 seconds (1434194015) in case this run gets aborted
+0000.574 (0) Checking if we have a zip executable available
+0000.576 (0) Testing: /usr/bin/zip
+0000.585 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.587 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.588 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.589 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=127) (out=105) (deflated 17%)
+0000.590 (0) Output: total bytes=127, compressed=105 -> 17% savings
+0000.605 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=134) (out=109) (deflated 19%)
+0000.607 (0) Output: total bytes=261, compressed=214 -> 18% savings
+0000.626 (0) Working binary zip found: /usr/bin/zip
+0000.628 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.629 (0) Creation of backups of directories: beginning
+0000.633 (0) Beginning creation of dump of plugins (split every: 500 Mb)
+0001.625 (0) Total entities for the zip file: 540 directories, 3624 files (0 skipped as non-modified), 530.7 Mb
+0001.628 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 Mb added on this batch (157 Mb, 3624 files batched, 42 (42) added so far); re-opening (prior size: 0 Kb)
+0011.143 (0) backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: size is now: 92.20 Mb
+0011.146 (0) A useful amount of data was added after this amount of zip processing: 10.6 s (normalised: 1.7 s, rate: 15114 Kb/s)
+0011.148 (0) Performance is good - will increase the amount of data we attempt to batch (time=10.640130043, normalised_time=1.69379005541, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=92860623)
+0011.150 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 88.6 Mb added on this batch (158.9 Mb, 3624 files batched, 1 (43) added so far); re-opening (prior size: 94397.6 Kb)
+0028.024 (0) backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: size is now: 184.40 Mb
+0028.029 (0) A useful amount of data was added after this amount of zip processing: 17.5 s (normalised: 9.8 s, rate: 9283.1 Kb/s)
+0028.036 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 88.6 Mb added on this batch (156.5 Mb, 3624 files batched, 1 (44) added so far); re-opening (prior size: 188797.9 Kb)
+0048.176 (0) backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: size is now: 276.20 Mb
+0048.178 (0) A useful amount of data was added after this amount of zip processing: 20.7 s (normalised: 11.7 s, rate: 7752.4 Kb/s)
+0048.181 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: 100 files added (on-disk size: 282804.6 Kb)
+0048.185 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: 200 files added (on-disk size: 282804.6 Kb)
+0048.188 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: 300 files added (on-disk size: 282804.6 Kb)
+0048.192 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: 400 files added (on-disk size: 282804.6 Kb)
+0048.195 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: 500 files added (on-disk size: 282804.6 Kb)
+0048.197 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (19.9 Mb, 3624 files batched, 501 (545) added so far); re-opening (prior size: 282804.6 Kb)
+0066.156 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: 600 files added (on-disk size: 289709.1 Kb)
+0066.161 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: 700 files added (on-disk size: 289709.1 Kb)
+0066.165 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: 800 files added (on-disk size: 289709.1 Kb)
+0066.169 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: 900 files added (on-disk size: 289709.1 Kb)
+0066.172 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: 1000 files added (on-disk size: 289709.1 Kb)
+0066.175 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.2 Mb, 3624 files batched, 501 (1046) added so far); re-opening (prior size: 289709.1 Kb)
+0074.932 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: 1100 files added (on-disk size: 291039.4 Kb)
+0074.936 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: 1200 files added (on-disk size: 291039.4 Kb)
+0074.940 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: 1300 files added (on-disk size: 291039.4 Kb)
+0074.943 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: 1400 files added (on-disk size: 291039.4 Kb)
+0074.947 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: 1500 files added (on-disk size: 291039.4 Kb)
+0074.949 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.2 Mb, 3624 files batched, 501 (1547) added so far); re-opening (prior size: 291039.4 Kb)
+0093.289 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: 1600 files added (on-disk size: 294924.7 Kb)
+0093.293 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: 1700 files added (on-disk size: 294924.7 Kb)
+0093.296 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: 1800 files added (on-disk size: 294924.7 Kb)
+0093.300 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: 1900 files added (on-disk size: 294924.7 Kb)
+0093.303 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: 2000 files added (on-disk size: 294924.7 Kb)
+0093.305 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.5 Mb, 3624 files batched, 501 (2048) added so far); re-opening (prior size: 294924.7 Kb)
+0106.714 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: 2100 files added (on-disk size: 295465.9 Kb)
+0106.719 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: 2200 files added (on-disk size: 295465.9 Kb)
+0106.724 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: 2300 files added (on-disk size: 295465.9 Kb)
+0106.729 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: 2400 files added (on-disk size: 295465.9 Kb)
+0106.735 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: 2500 files added (on-disk size: 295465.9 Kb)
+0106.738 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.7 Mb, 3624 files batched, 501 (2549) added so far); re-opening (prior size: 295465.9 Kb)
+0117.433 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: 2600 files added (on-disk size: 297351.8 Kb)
+0117.437 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: 2700 files added (on-disk size: 297351.8 Kb)
+0117.440 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: 2800 files added (on-disk size: 297351.8 Kb)
+0117.444 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: 2900 files added (on-disk size: 297351.8 Kb)
+0117.448 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: 3000 files added (on-disk size: 297351.8 Kb)
+0117.452 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10 Mb, 3624 files batched, 501 (3050) added so far); re-opening (prior size: 297351.8 Kb)
+0133.189 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: 3100 files added (on-disk size: 301531.5 Kb)
+0133.193 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: 3200 files added (on-disk size: 301531.5 Kb)
+0133.196 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: 3300 files added (on-disk size: 301531.5 Kb)
+0133.200 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: 3400 files added (on-disk size: 301531.5 Kb)
+0133.203 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: 3500 files added (on-disk size: 301531.5 Kb)
+0133.205 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.1 Mb, 3624 files batched, 501 (3551) added so far); re-opening (prior size: 301531.5 Kb)
+0146.334 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip.tmp: 3600 files added (on-disk size: 304689.2 Kb)
+0162.707 (0) Created plugins zip (0) - 305362.5 Kb in 161.9 s (1886.1 Kb/s) (SHA1 checksum: fffbc5d7c9836c4a3c6bf5fa58472d77c37f4ef5)
+0163.377 (0) Beginning creation of dump of themes (split every: 500 Mb)
+0163.715 (0) Total entities for the zip file: 35 directories, 219 files (0 skipped as non-modified), 2.6 Mb
+0163.718 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-themes.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0163.722 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-themes.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0164.189 (0) backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-themes.zip.tmp: size is now: 1.70 Mb
+0164.202 (0) Created themes zip (0) - 1741.2 Kb in 0.6 s (2738.1 Kb/s) (SHA1 checksum: a1d2ed75e65f18e3aa6db0ec02b34c62cafdebd3)
+0164.207 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0164.208 (0) Looking for candidates to back up in: /home4/playlabo/public_html/doartystuff/wp-content/uploads
+0164.220 (0) finding files: 2014: adding to list (1)
+0164.222 (0) finding files: 2015: adding to list (2)
+0164.223 (0) finding files: tribe-importer: adding to list (3)
+0164.224 (0) Beginning creation of dump of uploads (split every: 500 Mb)
+0164.595 (0) Total entities for the zip file: 14 directories, 1518 files (0 skipped as non-modified), 81.6 Mb
+0164.599 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-uploads.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0164.602 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-uploads.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0164.606 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-uploads.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0164.609 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-uploads.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0164.612 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-uploads.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0164.613 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (34.1 Mb, 1518 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0168.084 (0) backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-uploads.zip.tmp: size is now: 33.00 Mb
+0168.092 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-uploads.zip.tmp: 600 files added (on-disk size: 33833.1 Kb)
+0168.098 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-uploads.zip.tmp: 700 files added (on-disk size: 33833.1 Kb)
+0168.103 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-uploads.zip.tmp: 800 files added (on-disk size: 33833.1 Kb)
+0168.109 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-uploads.zip.tmp: 900 files added (on-disk size: 33833.1 Kb)
+0168.116 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-uploads.zip.tmp: 1000 files added (on-disk size: 33833.1 Kb)
+0168.117 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (29.4 Mb, 1518 files batched, 501 (1002) added so far); re-opening (prior size: 33833.1 Kb)
+0173.952 (0) backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-uploads.zip.tmp: size is now: 61.60 Mb
+0173.957 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-uploads.zip.tmp: 1100 files added (on-disk size: 63127.1 Kb)
+0173.961 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-uploads.zip.tmp: 1200 files added (on-disk size: 63127.1 Kb)
+0173.965 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-uploads.zip.tmp: 1300 files added (on-disk size: 63127.1 Kb)
+0173.968 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-uploads.zip.tmp: 1400 files added (on-disk size: 63127.1 Kb)
+0173.972 (0) Zip: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-uploads.zip.tmp: 1500 files added (on-disk size: 63127.1 Kb)
+0173.973 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (17.8 Mb, 1518 files batched, 501 (1503) added so far); re-opening (prior size: 63127.1 Kb)
+0180.112 (0) backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-uploads.zip.tmp: size is now: 78.80 Mb
+0180.764 (0) Created uploads zip (0) - 81077.9 Kb in 16.4 s (4955.2 Kb/s) (SHA1 checksum: bd50a9722b4b47910049e0947453eb38085880c8)
+0180.768 (0) Beginning backup of other directories found in the content directory (index: 0)
+0180.769 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups
+0180.770 (0) Looking for candidates to back up in: /home4/playlabo/public_html/doartystuff/wp-content
+0180.771 (0) finding files: install.php: adding to list (1)
+0180.772 (0) finding files: uploads: skipping: this is the uploads directory
+0180.773 (0) finding files: languages: adding to list (2)
+0180.773 (0) finding files: index.php: adding to list (3)
+0180.774 (0) finding files: themes: skipping: this is the themes directory
+0180.775 (0) finding files: upgrade: skipping: excluded by options
+0180.775 (0) finding files: plugins: skipping: this is the plugins directory
+0180.776 (0) finding files: updraft: skipping: this is the updraft directory
+0180.957 (0) Total entities for the zip file: 3 directories, 15 files (0 skipped as non-modified), 0.4 Mb
+0181.052 (0) backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-others.zip.tmp: size is now: 0.10 Mb
+0181.059 (0) Created others zip (0) - 135.7 Kb in 0.1 s (1278.7 Kb/s) (SHA1 checksum: 24aa8e7b3f9485f3fcae33a5c4a8f2cde53f1fbc)
+0181.069 (0) Saving backup status to database (elements: 8)
+0181.072 (0) Beginning creation of database dump (WordPress DB)
+0181.075 (0) Testing: /usr/bin/mysqldump
+0181.093 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0181.101 (0) Table wp_mqjn_options: Total expected rows (approximate): 452
+0181.213 (0) Table wp_mqjn_options: Total rows added: 451 in 0.11 seconds
+0181.222 (0) Table wp_mqjn_options: finishing file (backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-db-table-wp_mqjn_options.table.gz - 166.8 Kb)
+0181.229 (0) Table wp_mqjn_users: Total expected rows (approximate): 2
+0181.232 (0) Table wp_mqjn_users: Total rows added: 2 in 0.00 seconds
+0181.233 (0) Table wp_mqjn_users: finishing file (backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-db-table-wp_mqjn_users.table.gz - 0.6 Kb)
+0181.240 (0) Table wp_mqjn_usermeta: Total expected rows (approximate): 37
+0181.244 (0) Table wp_mqjn_usermeta: Total rows added: 37 in 0.00 seconds
+0181.245 (0) Table wp_mqjn_usermeta: finishing file (backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-db-table-wp_mqjn_usermeta.table.gz - 1.2 Kb)
+0181.251 (0) Table wp_mqjn_commentmeta: Total expected rows (approximate): 363
+0181.269 (0) Table wp_mqjn_commentmeta: Total rows added: 363 in 0.02 seconds
+0181.270 (0) Table wp_mqjn_commentmeta: finishing file (backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-db-table-wp_mqjn_commentmeta.table.gz - 23.4 Kb)
+0181.275 (0) Table wp_mqjn_comments: Total expected rows (approximate): 105
+0181.296 (0) Table wp_mqjn_comments: Total rows added: 105 in 0.02 seconds
+0181.298 (0) Table wp_mqjn_comments: finishing file (backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-db-table-wp_mqjn_comments.table.gz - 17.8 Kb)
+0181.306 (0) Table wp_mqjn_links: Total expected rows (approximate): 0
+0181.310 (0) Table wp_mqjn_links: Total rows added: 0 in 0.00 seconds
+0181.312 (0) Table wp_mqjn_links: finishing file (backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-db-table-wp_mqjn_links.table.gz - 0.4 Kb)
+0181.317 (0) Table wp_mqjn_postmeta: Total expected rows (approximate): 6288
+0181.500 (0) Table wp_mqjn_postmeta: Total rows added: 6288 in 0.18 seconds
+0181.502 (0) Table wp_mqjn_postmeta: finishing file (backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-db-table-wp_mqjn_postmeta.table.gz - 79.6 Kb)
+0181.505 (0) Table wp_mqjn_posts: Total expected rows (approximate): 934
+0181.683 (0) Table wp_mqjn_posts: Total rows added: 934 in 0.18 seconds
+0181.684 (0) Table wp_mqjn_posts: finishing file (backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-db-table-wp_mqjn_posts.table.gz - 232.8 Kb)
+0181.688 (0) Table wp_mqjn_term_relationships: Total expected rows (approximate): 566
+0181.697 (0) Table wp_mqjn_term_relationships: Total rows added: 566 in 0.01 seconds
+0181.699 (0) Table wp_mqjn_term_relationships: finishing file (backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-db-table-wp_mqjn_term_relationships.table.gz - 1.9 Kb)
+0181.702 (0) Table wp_mqjn_term_taxonomy: Total expected rows (approximate): 66
+0181.706 (0) Table wp_mqjn_term_taxonomy: Total rows added: 66 in 0.00 seconds
+0181.707 (0) Table wp_mqjn_term_taxonomy: finishing file (backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-db-table-wp_mqjn_term_taxonomy.table.gz - 0.9 Kb)
+0181.710 (0) Table wp_mqjn_terms: Total expected rows (approximate): 64
+0181.714 (0) Table wp_mqjn_terms: Total rows added: 64 in 0.00 seconds
+0181.715 (0) Table wp_mqjn_terms: finishing file (backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-db-table-wp_mqjn_terms.table.gz - 1.4 Kb)
+0181.719 (0) backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-db-table-wp_mqjn_options.table.gz (1/11): adding to final database dump
+0181.764 (0) backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-db-table-wp_mqjn_users.table.gz (2/11): adding to final database dump
+0181.765 (0) backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-db-table-wp_mqjn_usermeta.table.gz (3/11): adding to final database dump
+0181.766 (0) backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-db-table-wp_mqjn_commentmeta.table.gz (4/11): adding to final database dump
+0181.774 (0) backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-db-table-wp_mqjn_comments.table.gz (5/11): adding to final database dump
+0181.780 (0) backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-db-table-wp_mqjn_links.table.gz (6/11): adding to final database dump
+0181.781 (0) backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-db-table-wp_mqjn_postmeta.table.gz (7/11): adding to final database dump
+0181.826 (0) backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-db-table-wp_mqjn_posts.table.gz (8/11): adding to final database dump
+0181.902 (0) backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-db-table-wp_mqjn_term_relationships.table.gz (9/11): adding to final database dump
+0181.905 (0) backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-db-table-wp_mqjn_term_taxonomy.table.gz (10/11): adding to final database dump
+0181.906 (0) backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-db-table-wp_mqjn_terms.table.gz (11/11): adding to final database dump
+0181.907 (0) backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-db.gz: finished writing out complete database file (496 Kb)
+0181.914 (0) Total database tables backed up: 11 (backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-db.gz, size: 537553, checksum (SHA1): a4829b30ce0e6ba7b48c46d722ac03769015cbca)
+0181.915 (0) Saving backup history
+0181.919 (0) backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0181.920 (0) backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0181.921 (0) backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0181.921 (0) backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-others.zip: others: This file has not yet been successfully uploaded: will queue
+0181.922 (0) backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-db.gz: db: This file has not yet been successfully uploaded: will queue
+0181.924 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0181.927 (0) Cloud backup selection (1/1): googledrive (last)
+0181.928 (0) Beginning dispatch of backup to remote (googledrive)
+0181.942 (0) Google Drive: requesting access token: client_id=507131177963-1aaj638ar11j1arlba7tfuc7imd8l82m.apps.googleusercontent.com
+0182.071 (0) Google Drive: successfully obtained access token
+0183.629 (0) Google Drive quota usage: used=968.7 Mb, total=15360 Mb, available=14391.3 Mb
+0183.631 (0) backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip: Attempting to upload to Google Drive (into folder id: 0B0aSZwNLjO5WUF9HMllWOUU4dFU)
+0184.774 (0) Googledrive chunked upload: 0.3 % uploaded (1048576)
+0185.666 (0) Googledrive chunked upload: 0.7 % uploaded (2097152)
+0186.480 (0) Googledrive chunked upload: 1 % uploaded (3145728)
+0187.530 (0) Googledrive chunked upload: 1.3 % uploaded (4194304)
+0188.339 (0) Googledrive chunked upload: 1.7 % uploaded (5242880)
+0189.339 (0) Googledrive chunked upload: 2 % uploaded (6291456)
+0190.263 (0) Googledrive chunked upload: 2.3 % uploaded (7340032)
+0191.147 (0) Googledrive chunked upload: 2.7 % uploaded (8388608)
+0191.970 (0) Googledrive chunked upload: 3 % uploaded (9437184)
+0192.792 (0) Googledrive chunked upload: 3.4 % uploaded (10485760)
+0193.662 (0) Googledrive chunked upload: 3.7 % uploaded (11534336)
+0194.565 (0) Googledrive chunked upload: 4 % uploaded (12582912)
+0195.363 (0) Googledrive chunked upload: 4.4 % uploaded (13631488)
+0196.197 (0) Googledrive chunked upload: 4.7 % uploaded (14680064)
+0197.074 (0) Googledrive chunked upload: 5 % uploaded (15728640)
+0197.949 (0) Googledrive chunked upload: 5.4 % uploaded (16777216)
+0198.800 (0) Googledrive chunked upload: 5.7 % uploaded (17825792)
+0199.658 (0) Googledrive chunked upload: 6 % uploaded (18874368)
+0200.483 (0) Googledrive chunked upload: 6.4 % uploaded (19922944)
+0201.297 (0) Googledrive chunked upload: 6.7 % uploaded (20971520)
+0202.094 (0) Googledrive chunked upload: 7 % uploaded (22020096)
+0203.069 (0) Googledrive chunked upload: 7.4 % uploaded (23068672)
+0203.899 (0) Googledrive chunked upload: 7.7 % uploaded (24117248)
+0204.663 (0) Googledrive chunked upload: 8 % uploaded (25165824)
+0205.571 (0) Googledrive chunked upload: 8.4 % uploaded (26214400)
+0206.484 (0) Googledrive chunked upload: 8.7 % uploaded (27262976)
+0207.379 (0) Googledrive chunked upload: 9.1 % uploaded (28311552)
+0208.219 (0) Googledrive chunked upload: 9.4 % uploaded (29360128)
+0209.098 (0) Googledrive chunked upload: 9.7 % uploaded (30408704)
+0209.914 (0) Googledrive chunked upload: 10.1 % uploaded (31457280)
+0210.757 (0) Googledrive chunked upload: 10.4 % uploaded (32505856)
+0211.701 (0) Googledrive chunked upload: 10.7 % uploaded (33554432)
+0212.525 (0) Googledrive chunked upload: 11.1 % uploaded (34603008)
+0213.316 (0) Googledrive chunked upload: 11.4 % uploaded (35651584)
+0214.174 (0) Googledrive chunked upload: 11.7 % uploaded (36700160)
+0214.979 (0) Googledrive chunked upload: 12.1 % uploaded (37748736)
+0215.869 (0) Googledrive chunked upload: 12.4 % uploaded (38797312)
+0216.740 (0) Googledrive chunked upload: 12.7 % uploaded (39845888)
+0217.634 (0) Googledrive chunked upload: 13.1 % uploaded (40894464)
+0218.478 (0) Googledrive chunked upload: 13.4 % uploaded (41943040)
+0219.430 (0) Googledrive chunked upload: 13.7 % uploaded (42991616)
+0220.275 (0) Googledrive chunked upload: 14.1 % uploaded (44040192)
+0221.146 (0) Googledrive chunked upload: 14.4 % uploaded (45088768)
+0221.928 (0) Googledrive chunked upload: 14.8 % uploaded (46137344)
+0222.853 (0) Googledrive chunked upload: 15.1 % uploaded (47185920)
+0223.739 (0) Googledrive chunked upload: 15.4 % uploaded (48234496)
+0224.530 (0) Googledrive chunked upload: 15.8 % uploaded (49283072)
+0225.403 (0) Googledrive chunked upload: 16.1 % uploaded (50331648)
+0226.229 (0) Googledrive chunked upload: 16.4 % uploaded (51380224)
+0227.049 (0) Googledrive chunked upload: 16.8 % uploaded (52428800)
+0227.828 (0) Googledrive chunked upload: 17.1 % uploaded (53477376)
+0228.746 (0) Googledrive chunked upload: 17.4 % uploaded (54525952)
+0229.537 (0) Googledrive chunked upload: 17.8 % uploaded (55574528)
+0230.434 (0) Googledrive chunked upload: 18.1 % uploaded (56623104)
+0231.302 (0) Googledrive chunked upload: 18.4 % uploaded (57671680)
+0232.151 (0) Googledrive chunked upload: 18.8 % uploaded (58720256)
+0233.007 (0) Googledrive chunked upload: 19.1 % uploaded (59768832)
+0233.812 (0) Googledrive chunked upload: 19.4 % uploaded (60817408)
+0234.589 (0) Googledrive chunked upload: 19.8 % uploaded (61865984)
+0235.420 (0) Googledrive chunked upload: 20.1 % uploaded (62914560)
+0236.222 (0) Googledrive chunked upload: 20.5 % uploaded (63963136)
+0236.975 (0) Googledrive chunked upload: 20.8 % uploaded (65011712)
+0237.829 (0) Googledrive chunked upload: 21.1 % uploaded (66060288)
+0238.707 (0) Googledrive chunked upload: 21.5 % uploaded (67108864)
+0239.539 (0) Googledrive chunked upload: 21.8 % uploaded (68157440)
+0240.311 (0) Googledrive chunked upload: 22.1 % uploaded (69206016)
+0241.193 (0) Googledrive chunked upload: 22.5 % uploaded (70254592)
+0242.047 (0) Googledrive chunked upload: 22.8 % uploaded (71303168)
+0242.876 (0) Googledrive chunked upload: 23.1 % uploaded (72351744)
+0243.716 (0) Googledrive chunked upload: 23.5 % uploaded (73400320)
+0244.582 (0) Googledrive chunked upload: 23.8 % uploaded (74448896)
+0245.402 (0) Googledrive chunked upload: 24.1 % uploaded (75497472)
+0246.244 (0) Googledrive chunked upload: 24.5 % uploaded (76546048)
+0247.182 (0) Googledrive chunked upload: 24.8 % uploaded (77594624)
+0248.093 (0) Googledrive chunked upload: 25.2 % uploaded (78643200)
+0248.895 (0) Googledrive chunked upload: 25.5 % uploaded (79691776)
+0249.688 (0) Googledrive chunked upload: 25.8 % uploaded (80740352)
+0250.582 (0) Googledrive chunked upload: 26.2 % uploaded (81788928)
+0251.419 (0) Googledrive chunked upload: 26.5 % uploaded (82837504)
+0252.343 (0) Googledrive chunked upload: 26.8 % uploaded (83886080)
+0253.116 (0) Googledrive chunked upload: 27.2 % uploaded (84934656)
+0253.937 (0) Googledrive chunked upload: 27.5 % uploaded (85983232)
+0254.701 (0) Googledrive chunked upload: 27.8 % uploaded (87031808)
+0255.514 (0) Googledrive chunked upload: 28.2 % uploaded (88080384)
+0256.391 (0) The scheduled resumption is within 45 seconds - will reschedule
+0256.396 (0) Rescheduling resumption 1: moving to 345 seconds from now (1434194315)
+0256.405 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0256.406 (0) Googledrive chunked upload: 28.5 % uploaded (89128960)
+0257.285 (0) Googledrive chunked upload: 28.8 % uploaded (90177536)
+0258.077 (0) Googledrive chunked upload: 29.2 % uploaded (91226112)
+0258.895 (0) Googledrive chunked upload: 29.5 % uploaded (92274688)
+0259.821 (0) Googledrive chunked upload: 29.8 % uploaded (93323264)
+0260.608 (0) Googledrive chunked upload: 30.2 % uploaded (94371840)
+0261.451 (0) Googledrive chunked upload: 30.5 % uploaded (95420416)
+0262.317 (0) Googledrive chunked upload: 30.9 % uploaded (96468992)
+0263.102 (0) Googledrive chunked upload: 31.2 % uploaded (97517568)
+0263.968 (0) Googledrive chunked upload: 31.5 % uploaded (98566144)
+0264.886 (0) Googledrive chunked upload: 31.9 % uploaded (99614720)
+0265.779 (0) Googledrive chunked upload: 32.2 % uploaded (100663296)
+0266.604 (0) Googledrive chunked upload: 32.5 % uploaded (101711872)
+0267.473 (0) Googledrive chunked upload: 32.9 % uploaded (102760448)
+0268.253 (0) Googledrive chunked upload: 33.2 % uploaded (103809024)
+0269.157 (0) Googledrive chunked upload: 33.5 % uploaded (104857600)
+0270.057 (0) Googledrive chunked upload: 33.9 % uploaded (105906176)
+0270.914 (0) Googledrive chunked upload: 34.2 % uploaded (106954752)
+0271.778 (0) Googledrive chunked upload: 34.5 % uploaded (108003328)
+0272.686 (0) Googledrive chunked upload: 34.9 % uploaded (109051904)
+0273.625 (0) Googledrive chunked upload: 35.2 % uploaded (110100480)
+0274.511 (0) Googledrive chunked upload: 35.5 % uploaded (111149056)
+0275.439 (0) Googledrive chunked upload: 35.9 % uploaded (112197632)
+0276.384 (0) Googledrive chunked upload: 36.2 % uploaded (113246208)
+0277.222 (0) Googledrive chunked upload: 36.6 % uploaded (114294784)
+0278.104 (0) Googledrive chunked upload: 36.9 % uploaded (115343360)
+0278.950 (0) Googledrive chunked upload: 37.2 % uploaded (116391936)
+0279.818 (0) Googledrive chunked upload: 37.6 % uploaded (117440512)
+0280.711 (0) Googledrive chunked upload: 37.9 % uploaded (118489088)
+0281.551 (0) Googledrive chunked upload: 38.2 % uploaded (119537664)
+0282.401 (0) Googledrive chunked upload: 38.6 % uploaded (120586240)
+0283.240 (0) Googledrive chunked upload: 38.9 % uploaded (121634816)
+0284.110 (0) Googledrive chunked upload: 39.2 % uploaded (122683392)
+0284.974 (0) Googledrive chunked upload: 39.6 % uploaded (123731968)
+0285.918 (0) Googledrive chunked upload: 39.9 % uploaded (124780544)
+0286.809 (0) Googledrive chunked upload: 40.2 % uploaded (125829120)
+0287.654 (0) Googledrive chunked upload: 40.6 % uploaded (126877696)
+0288.505 (0) Googledrive chunked upload: 40.9 % uploaded (127926272)
+0289.396 (0) Googledrive chunked upload: 41.2 % uploaded (128974848)
+0290.254 (0) Googledrive chunked upload: 41.6 % uploaded (130023424)
+0291.148 (0) Googledrive chunked upload: 41.9 % uploaded (131072000)
+0292.122 (0) Googledrive chunked upload: 42.3 % uploaded (132120576)
+0293.030 (0) Googledrive chunked upload: 42.6 % uploaded (133169152)
+0293.919 (0) Googledrive chunked upload: 42.9 % uploaded (134217728)
+0294.874 (0) Googledrive chunked upload: 43.3 % uploaded (135266304)
+0296.071 (0) Googledrive chunked upload: 43.6 % uploaded (136314880)
+0297.063 (0) Googledrive chunked upload: 43.9 % uploaded (137363456)
+0297.936 (0) Googledrive chunked upload: 44.3 % uploaded (138412032)
+0298.873 (0) Googledrive chunked upload: 44.6 % uploaded (139460608)
+0299.792 (0) Googledrive chunked upload: 44.9 % uploaded (140509184)
+0300.745 (0) Googledrive chunked upload: 45.3 % uploaded (141557760)
+0301.648 (0) Googledrive chunked upload: 45.6 % uploaded (142606336)
+0302.548 (0) Googledrive chunked upload: 45.9 % uploaded (143654912)
+0303.598 (0) Googledrive chunked upload: 46.3 % uploaded (144703488)
+0304.532 (0) Googledrive chunked upload: 46.6 % uploaded (145752064)
+0305.491 (0) Googledrive chunked upload: 46.9 % uploaded (146800640)
+0306.410 (0) Googledrive chunked upload: 47.3 % uploaded (147849216)
+0307.362 (0) Googledrive chunked upload: 47.6 % uploaded (148897792)
+0308.279 (0) Googledrive chunked upload: 48 % uploaded (149946368)
+0309.259 (0) Googledrive chunked upload: 48.3 % uploaded (150994944)
+0310.209 (0) Googledrive chunked upload: 48.6 % uploaded (152043520)
+0311.156 (0) Googledrive chunked upload: 49 % uploaded (153092096)
+0312.097 (0) Googledrive chunked upload: 49.3 % uploaded (154140672)
+0313.038 (0) Googledrive chunked upload: 49.6 % uploaded (155189248)
+0313.959 (0) Googledrive chunked upload: 50 % uploaded (156237824)
+0314.911 (0) Googledrive chunked upload: 50.3 % uploaded (157286400)
+0315.869 (0) The time we have been running (315.8) is approaching the resumption interval (345) - increasing resumption interval to 346
+0315.873 (0) Googledrive chunked upload: 50.6 % uploaded (158334976)
+0316.877 (0) The time we have been running (316.8) is approaching the resumption interval (346) - increasing resumption interval to 347
+0316.879 (0) Googledrive chunked upload: 51 % uploaded (159383552)
+0317.828 (0) The time we have been running (317.8) is approaching the resumption interval (347) - increasing resumption interval to 348
+0317.831 (0) Googledrive chunked upload: 51.3 % uploaded (160432128)
+0318.774 (0) The time we have been running (318.7) is approaching the resumption interval (348) - increasing resumption interval to 349
+0318.776 (0) Googledrive chunked upload: 51.6 % uploaded (161480704)
+0319.928 (0) The time we have been running (319.9) is approaching the resumption interval (349) - increasing resumption interval to 350
+0319.931 (0) Googledrive chunked upload: 52 % uploaded (162529280)
+0320.984 (0) The time we have been running (320.9) is approaching the resumption interval (350) - increasing resumption interval to 351
+0320.986 (0) Googledrive chunked upload: 52.3 % uploaded (163577856)
+0322.014 (0) The time we have been running (322) is approaching the resumption interval (351) - increasing resumption interval to 352
+0322.017 (0) Googledrive chunked upload: 52.6 % uploaded (164626432)
+0323.022 (0) The time we have been running (323) is approaching the resumption interval (352) - increasing resumption interval to 353
+0323.024 (0) Googledrive chunked upload: 53 % uploaded (165675008)
+0324.087 (0) The time we have been running (324) is approaching the resumption interval (353) - increasing resumption interval to 355
+0324.090 (0) Googledrive chunked upload: 53.3 % uploaded (166723584)
+0325.129 (0) The time we have been running (325.1) is approaching the resumption interval (355) - increasing resumption interval to 356
+0325.131 (0) Googledrive chunked upload: 53.7 % uploaded (167772160)
+0326.173 (0) The time we have been running (326.1) is approaching the resumption interval (356) - increasing resumption interval to 357
+0326.175 (0) Googledrive chunked upload: 54 % uploaded (168820736)
+0327.165 (0) The time we have been running (327.1) is approaching the resumption interval (357) - increasing resumption interval to 358
+0327.168 (0) Googledrive chunked upload: 54.3 % uploaded (169869312)
+0328.284 (0) The time we have been running (328.2) is approaching the resumption interval (358) - increasing resumption interval to 359
+0328.286 (0) Googledrive chunked upload: 54.7 % uploaded (170917888)
+0329.301 (0) The time we have been running (329.2) is approaching the resumption interval (359) - increasing resumption interval to 360
+0329.302 (0) Googledrive chunked upload: 55 % uploaded (171966464)
+0330.370 (0) The time we have been running (330.3) is approaching the resumption interval (360) - increasing resumption interval to 361
+0330.372 (0) Googledrive chunked upload: 55.3 % uploaded (173015040)
+0331.352 (0) The time we have been running (331.3) is approaching the resumption interval (361) - increasing resumption interval to 362
+0331.354 (0) Googledrive chunked upload: 55.7 % uploaded (174063616)
+0332.424 (0) The time we have been running (332.4) is approaching the resumption interval (362) - increasing resumption interval to 363
+0332.427 (0) Googledrive chunked upload: 56 % uploaded (175112192)
+0333.502 (0) The time we have been running (333.4) is approaching the resumption interval (363) - increasing resumption interval to 364
+0333.504 (0) Googledrive chunked upload: 56.3 % uploaded (176160768)
+0334.560 (0) The time we have been running (334.5) is approaching the resumption interval (364) - increasing resumption interval to 365
+0334.562 (0) Googledrive chunked upload: 56.7 % uploaded (177209344)
+0335.617 (0) The time we have been running (335.6) is approaching the resumption interval (365) - increasing resumption interval to 366
+0335.619 (0) Googledrive chunked upload: 57 % uploaded (178257920)
+0336.617 (0) The time we have been running (336.6) is approaching the resumption interval (366) - increasing resumption interval to 367
+0336.619 (0) Googledrive chunked upload: 57.3 % uploaded (179306496)
+0337.634 (0) The time we have been running (337.6) is approaching the resumption interval (367) - increasing resumption interval to 368
+0337.636 (0) Googledrive chunked upload: 57.7 % uploaded (180355072)
+0338.714 (0) The time we have been running (338.7) is approaching the resumption interval (368) - increasing resumption interval to 369
+0338.715 (0) Googledrive chunked upload: 58 % uploaded (181403648)
+0339.740 (0) The time we have been running (339.7) is approaching the resumption interval (369) - increasing resumption interval to 370
+0339.742 (0) Googledrive chunked upload: 58.3 % uploaded (182452224)
+0340.786 (0) The time we have been running (340.7) is approaching the resumption interval (370) - increasing resumption interval to 371
+0340.789 (0) Googledrive chunked upload: 58.7 % uploaded (183500800)
+0341.837 (0) The time we have been running (341.8) is approaching the resumption interval (371) - increasing resumption interval to 372
+0341.839 (0) Googledrive chunked upload: 59 % uploaded (184549376)
+0342.849 (0) The time we have been running (342.8) is approaching the resumption interval (372) - increasing resumption interval to 373
+0342.851 (0) Googledrive chunked upload: 59.4 % uploaded (185597952)
+0343.866 (0) The time we have been running (343.8) is approaching the resumption interval (373) - increasing resumption interval to 374
+0343.868 (0) Googledrive chunked upload: 59.7 % uploaded (186646528)
+0344.925 (0) The time we have been running (344.9) is approaching the resumption interval (374) - increasing resumption interval to 375
+0344.927 (0) Googledrive chunked upload: 60 % uploaded (187695104)
+0346.002 (0) The time we have been running (345.9) is approaching the resumption interval (375) - increasing resumption interval to 376
+0346.004 (0) Googledrive chunked upload: 60.4 % uploaded (188743680)
+0347.024 (0) The time we have been running (347) is approaching the resumption interval (376) - increasing resumption interval to 377
+0347.026 (0) Googledrive chunked upload: 60.7 % uploaded (189792256)
+0348.064 (0) The time we have been running (348) is approaching the resumption interval (377) - increasing resumption interval to 379
+0348.067 (0) Googledrive chunked upload: 61 % uploaded (190840832)
+0349.076 (0) The time we have been running (349) is approaching the resumption interval (379) - increasing resumption interval to 380
+0349.078 (0) Googledrive chunked upload: 61.4 % uploaded (191889408)
+0350.118 (0) The time we have been running (350.1) is approaching the resumption interval (380) - increasing resumption interval to 381
+0350.120 (0) Googledrive chunked upload: 61.7 % uploaded (192937984)
+0351.139 (0) The time we have been running (351.1) is approaching the resumption interval (381) - increasing resumption interval to 382
+0351.141 (0) Googledrive chunked upload: 62 % uploaded (193986560)
+0352.188 (0) The time we have been running (352.1) is approaching the resumption interval (382) - increasing resumption interval to 383
+0352.190 (0) Googledrive chunked upload: 62.4 % uploaded (195035136)
+0353.253 (0) The time we have been running (353.2) is approaching the resumption interval (383) - increasing resumption interval to 384
+0353.255 (0) Googledrive chunked upload: 62.7 % uploaded (196083712)
+0354.322 (0) The time we have been running (354.3) is approaching the resumption interval (384) - increasing resumption interval to 385
+0354.324 (0) Googledrive chunked upload: 63 % uploaded (197132288)
+0355.381 (0) The time we have been running (355.3) is approaching the resumption interval (385) - increasing resumption interval to 386
+0355.383 (0) Googledrive chunked upload: 63.4 % uploaded (198180864)
+0356.430 (0) The time we have been running (356.3) is approaching the resumption interval (386) - increasing resumption interval to 387
+0356.432 (0) Googledrive chunked upload: 63.7 % uploaded (199229440)
+0357.439 (0) The time we have been running (357.4) is approaching the resumption interval (387) - increasing resumption interval to 388
+0357.441 (0) Googledrive chunked upload: 64 % uploaded (200278016)
+0358.428 (0) The time we have been running (358.4) is approaching the resumption interval (388) - increasing resumption interval to 389
+0358.430 (0) Googledrive chunked upload: 64.4 % uploaded (201326592)
+0359.483 (0) The time we have been running (359.4) is approaching the resumption interval (389) - increasing resumption interval to 390
+0359.486 (0) Googledrive chunked upload: 64.7 % uploaded (202375168)
+0360.546 (0) The time we have been running (360.5) is approaching the resumption interval (390) - increasing resumption interval to 391
+0360.547 (0) Googledrive chunked upload: 65.1 % uploaded (203423744)
+0361.562 (0) The time we have been running (361.5) is approaching the resumption interval (391) - increasing resumption interval to 392
+0361.564 (0) Googledrive chunked upload: 65.4 % uploaded (204472320)
+0362.557 (0) The time we have been running (362.5) is approaching the resumption interval (392) - increasing resumption interval to 393
+0362.559 (0) Googledrive chunked upload: 65.7 % uploaded (205520896)
+0363.611 (0) The time we have been running (363.6) is approaching the resumption interval (393) - increasing resumption interval to 394
+0363.613 (0) Googledrive chunked upload: 66.1 % uploaded (206569472)
+0364.657 (0) The time we have been running (364.6) is approaching the resumption interval (394) - increasing resumption interval to 395
+0364.659 (0) Googledrive chunked upload: 66.4 % uploaded (207618048)
+0365.800 (0) The time we have been running (365.7) is approaching the resumption interval (395) - increasing resumption interval to 396
+0365.803 (0) Googledrive chunked upload: 66.7 % uploaded (208666624)
+0366.872 (0) The time we have been running (366.8) is approaching the resumption interval (396) - increasing resumption interval to 397
+0366.874 (0) Googledrive chunked upload: 67.1 % uploaded (209715200)
+0367.923 (0) The time we have been running (367.9) is approaching the resumption interval (397) - increasing resumption interval to 398
+0367.927 (0) Googledrive chunked upload: 67.4 % uploaded (210763776)
+0368.940 (0) The time we have been running (368.9) is approaching the resumption interval (398) - increasing resumption interval to 399
+0368.943 (0) Googledrive chunked upload: 67.7 % uploaded (211812352)
+0369.954 (0) The time we have been running (369.9) is approaching the resumption interval (399) - increasing resumption interval to 400
+0369.957 (0) Googledrive chunked upload: 68.1 % uploaded (212860928)
+0371.418 (0) The time we have been running (371.3) is approaching the resumption interval (400) - increasing resumption interval to 402
+0371.432 (0) Googledrive chunked upload: 68.4 % uploaded (213909504)
+0372.481 (0) The time we have been running (372.4) is approaching the resumption interval (402) - increasing resumption interval to 403
+0372.484 (0) Googledrive chunked upload: 68.7 % uploaded (214958080)
+0373.585 (0) The time we have been running (373.5) is approaching the resumption interval (403) - increasing resumption interval to 404
+0373.587 (0) Googledrive chunked upload: 69.1 % uploaded (216006656)
+0374.665 (0) The time we have been running (374.6) is approaching the resumption interval (404) - increasing resumption interval to 405
+0374.667 (0) Googledrive chunked upload: 69.4 % uploaded (217055232)
+0375.715 (0) The time we have been running (375.7) is approaching the resumption interval (405) - increasing resumption interval to 406
+0375.718 (0) Googledrive chunked upload: 69.8 % uploaded (218103808)
+0376.800 (0) The time we have been running (376.7) is approaching the resumption interval (406) - increasing resumption interval to 407
+0376.802 (0) Googledrive chunked upload: 70.1 % uploaded (219152384)
+0377.837 (0) The time we have been running (377.8) is approaching the resumption interval (407) - increasing resumption interval to 408
+0377.839 (0) Googledrive chunked upload: 70.4 % uploaded (220200960)
+0378.882 (0) The time we have been running (378.8) is approaching the resumption interval (408) - increasing resumption interval to 409
+0378.884 (0) Googledrive chunked upload: 70.8 % uploaded (221249536)
+0379.901 (0) The time we have been running (379.8) is approaching the resumption interval (409) - increasing resumption interval to 410
+0379.904 (0) Googledrive chunked upload: 71.1 % uploaded (222298112)
+0380.917 (0) The time we have been running (380.9) is approaching the resumption interval (410) - increasing resumption interval to 411
+0380.919 (0) Googledrive chunked upload: 71.4 % uploaded (223346688)
+0381.953 (0) The time we have been running (381.9) is approaching the resumption interval (411) - increasing resumption interval to 412
+0381.955 (0) Googledrive chunked upload: 71.8 % uploaded (224395264)
+0382.934 (0) The time we have been running (382.9) is approaching the resumption interval (412) - increasing resumption interval to 413
+0382.936 (0) Googledrive chunked upload: 72.1 % uploaded (225443840)
+0383.974 (0) The time we have been running (383.9) is approaching the resumption interval (413) - increasing resumption interval to 414
+0383.977 (0) Googledrive chunked upload: 72.4 % uploaded (226492416)
+0384.984 (0) The time we have been running (384.9) is approaching the resumption interval (414) - increasing resumption interval to 415
+0384.986 (0) Googledrive chunked upload: 72.8 % uploaded (227540992)
+0386.029 (0) The time we have been running (386) is approaching the resumption interval (415) - increasing resumption interval to 416
+0386.031 (0) Googledrive chunked upload: 73.1 % uploaded (228589568)
+0387.143 (0) The time we have been running (387.1) is approaching the resumption interval (416) - increasing resumption interval to 418
+0387.146 (0) Googledrive chunked upload: 73.4 % uploaded (229638144)
+0388.207 (0) The time we have been running (388.2) is approaching the resumption interval (418) - increasing resumption interval to 419
+0388.211 (0) Googledrive chunked upload: 73.8 % uploaded (230686720)
+0389.455 (0) The time we have been running (389.4) is approaching the resumption interval (419) - increasing resumption interval to 420
+0389.457 (0) Googledrive chunked upload: 74.1 % uploaded (231735296)
+0390.532 (0) The time we have been running (390.5) is approaching the resumption interval (420) - increasing resumption interval to 421
+0390.534 (0) Googledrive chunked upload: 74.4 % uploaded (232783872)
+0391.577 (0) The time we have been running (391.5) is approaching the resumption interval (421) - increasing resumption interval to 422
+0391.579 (0) Googledrive chunked upload: 74.8 % uploaded (233832448)
+0392.731 (0) The time we have been running (392.7) is approaching the resumption interval (422) - increasing resumption interval to 423
+0392.733 (0) Googledrive chunked upload: 75.1 % uploaded (234881024)
+0393.785 (0) The time we have been running (393.7) is approaching the resumption interval (423) - increasing resumption interval to 424
+0393.787 (0) Googledrive chunked upload: 75.5 % uploaded (235929600)
+0394.813 (0) The time we have been running (394.8) is approaching the resumption interval (424) - increasing resumption interval to 425
+0394.816 (0) Googledrive chunked upload: 75.8 % uploaded (236978176)
+0395.959 (0) The time we have been running (395.9) is approaching the resumption interval (425) - increasing resumption interval to 426
+0395.962 (0) Googledrive chunked upload: 76.1 % uploaded (238026752)
+0396.983 (0) The time we have been running (396.9) is approaching the resumption interval (426) - increasing resumption interval to 427
+0396.985 (0) Googledrive chunked upload: 76.5 % uploaded (239075328)
+0398.049 (0) The time we have been running (398) is approaching the resumption interval (427) - increasing resumption interval to 428
+0398.051 (0) Googledrive chunked upload: 76.8 % uploaded (240123904)
+0399.032 (0) The time we have been running (399) is approaching the resumption interval (428) - increasing resumption interval to 429
+0399.034 (0) Googledrive chunked upload: 77.1 % uploaded (241172480)
+0400.018 (0) The time we have been running (400) is approaching the resumption interval (429) - increasing resumption interval to 430
+0400.021 (0) Googledrive chunked upload: 77.5 % uploaded (242221056)
+0401.055 (0) The time we have been running (401) is approaching the resumption interval (430) - increasing resumption interval to 432
+0401.057 (0) Googledrive chunked upload: 77.8 % uploaded (243269632)
+0402.020 (0) Googledrive chunked upload: 78.1 % uploaded (244318208)
+0403.055 (0) The time we have been running (403) is approaching the resumption interval (432) - increasing resumption interval to 434
+0403.057 (0) Googledrive chunked upload: 78.5 % uploaded (245366784)
+0404.168 (0) The time we have been running (404.1) is approaching the resumption interval (434) - increasing resumption interval to 435
+0404.171 (0) Googledrive chunked upload: 78.8 % uploaded (246415360)
+0405.228 (0) The time we have been running (405.2) is approaching the resumption interval (435) - increasing resumption interval to 436
+0405.231 (0) Googledrive chunked upload: 79.1 % uploaded (247463936)
+0406.713 (0) The time we have been running (406.7) is approaching the resumption interval (436) - increasing resumption interval to 437
+0406.716 (0) Googledrive chunked upload: 79.5 % uploaded (248512512)
+0407.801 (0) The time we have been running (407.7) is approaching the resumption interval (437) - increasing resumption interval to 438
+0407.803 (0) Googledrive chunked upload: 79.8 % uploaded (249561088)
+0408.749 (0) The time we have been running (408.7) is approaching the resumption interval (438) - increasing resumption interval to 439
+0408.752 (0) Googledrive chunked upload: 80.1 % uploaded (250609664)
+0409.709 (0) The time we have been running (409.7) is approaching the resumption interval (439) - increasing resumption interval to 440
+0409.711 (0) Googledrive chunked upload: 80.5 % uploaded (251658240)
+0410.756 (0) The time we have been running (410.7) is approaching the resumption interval (440) - increasing resumption interval to 441
+0410.759 (0) Googledrive chunked upload: 80.8 % uploaded (252706816)
+0411.728 (0) The time we have been running (411.7) is approaching the resumption interval (441) - increasing resumption interval to 442
+0411.730 (0) Googledrive chunked upload: 81.2 % uploaded (253755392)
+0412.807 (0) The time we have been running (412.8) is approaching the resumption interval (442) - increasing resumption interval to 443
+0412.817 (0) Googledrive chunked upload: 81.5 % uploaded (254803968)
+0413.801 (0) The time we have been running (413.7) is approaching the resumption interval (443) - increasing resumption interval to 444
+0413.803 (0) Googledrive chunked upload: 81.8 % uploaded (255852544)
+0414.701 (0) The time we have been running (414.6) is approaching the resumption interval (444) - increasing resumption interval to 445
+0414.703 (0) Googledrive chunked upload: 82.2 % uploaded (256901120)
+0415.699 (0) The time we have been running (415.6) is approaching the resumption interval (445) - increasing resumption interval to 446
+0415.701 (0) Googledrive chunked upload: 82.5 % uploaded (257949696)
+0416.608 (0) The time we have been running (416.6) is approaching the resumption interval (446) - increasing resumption interval to 447
+0416.611 (0) Googledrive chunked upload: 82.8 % uploaded (258998272)
+0417.510 (0) The time we have been running (417.5) is approaching the resumption interval (447) - increasing resumption interval to 448
+0417.512 (0) Googledrive chunked upload: 83.2 % uploaded (260046848)
+0418.451 (0) The time we have been running (418.4) is approaching the resumption interval (448) - increasing resumption interval to 449
+0418.453 (0) Googledrive chunked upload: 83.5 % uploaded (261095424)
+0419.340 (0) The time we have been running (419.3) is approaching the resumption interval (449) - increasing resumption interval to 450
+0419.342 (0) Googledrive chunked upload: 83.8 % uploaded (262144000)
+0420.273 (0) The time we have been running (420.2) is approaching the resumption interval (450) - increasing resumption interval to 451
+0420.275 (0) Googledrive chunked upload: 84.2 % uploaded (263192576)
+0421.162 (0) The time we have been running (421.1) is approaching the resumption interval (451) - increasing resumption interval to 452
+0421.164 (0) Googledrive chunked upload: 84.5 % uploaded (264241152)
+0422.060 (0) The time we have been running (422) is approaching the resumption interval (452) - increasing resumption interval to 453
+0422.062 (0) Googledrive chunked upload: 84.8 % uploaded (265289728)
+0423.024 (0) Googledrive chunked upload: 85.2 % uploaded (266338304)
+0424.035 (0) The time we have been running (424) is approaching the resumption interval (453) - increasing resumption interval to 454
+0424.038 (0) Googledrive chunked upload: 85.5 % uploaded (267386880)
+0424.927 (0) The time we have been running (424.9) is approaching the resumption interval (454) - increasing resumption interval to 455
+0424.929 (0) Googledrive chunked upload: 85.8 % uploaded (268435456)
+0425.854 (0) The time we have been running (425.8) is approaching the resumption interval (455) - increasing resumption interval to 456
+0425.856 (0) Googledrive chunked upload: 86.2 % uploaded (269484032)
+0426.745 (0) The time we have been running (426.7) is approaching the resumption interval (456) - increasing resumption interval to 457
+0426.747 (0) Googledrive chunked upload: 86.5 % uploaded (270532608)
+0427.806 (0) The time we have been running (427.8) is approaching the resumption interval (457) - increasing resumption interval to 458
+0427.808 (0) Googledrive chunked upload: 86.9 % uploaded (271581184)
+0428.692 (0) The time we have been running (428.6) is approaching the resumption interval (458) - increasing resumption interval to 459
+0428.694 (0) Googledrive chunked upload: 87.2 % uploaded (272629760)
+0429.584 (0) The time we have been running (429.5) is approaching the resumption interval (459) - increasing resumption interval to 460
+0429.586 (0) Googledrive chunked upload: 87.5 % uploaded (273678336)
+0430.513 (0) The time we have been running (430.5) is approaching the resumption interval (460) - increasing resumption interval to 461
+0430.515 (0) Googledrive chunked upload: 87.9 % uploaded (274726912)
+0431.373 (0) The time we have been running (431.3) is approaching the resumption interval (461) - increasing resumption interval to 462
+0431.376 (0) Googledrive chunked upload: 88.2 % uploaded (275775488)
+0432.396 (0) The time we have been running (432.3) is approaching the resumption interval (462) - increasing resumption interval to 463
+0432.399 (0) Googledrive chunked upload: 88.5 % uploaded (276824064)
+0433.274 (0) The time we have been running (433.2) is approaching the resumption interval (463) - increasing resumption interval to 464
+0433.276 (0) Googledrive chunked upload: 88.9 % uploaded (277872640)
+0434.178 (0) The time we have been running (434.1) is approaching the resumption interval (464) - increasing resumption interval to 465
+0434.180 (0) Googledrive chunked upload: 89.2 % uploaded (278921216)
+0435.107 (0) The time we have been running (435.1) is approaching the resumption interval (465) - increasing resumption interval to 466
+0435.109 (0) Googledrive chunked upload: 89.5 % uploaded (279969792)
+0436.052 (0) Googledrive chunked upload: 89.9 % uploaded (281018368)
+0437.013 (0) The time we have been running (437) is approaching the resumption interval (466) - increasing resumption interval to 467
+0437.015 (0) Googledrive chunked upload: 90.2 % uploaded (282066944)
+0438.184 (0) The time we have been running (438.1) is approaching the resumption interval (467) - increasing resumption interval to 469
+0438.186 (0) Googledrive chunked upload: 90.5 % uploaded (283115520)
+0439.340 (0) The time we have been running (439.3) is approaching the resumption interval (469) - increasing resumption interval to 470
+0439.341 (0) Googledrive chunked upload: 90.9 % uploaded (284164096)
+0440.396 (0) The time we have been running (440.3) is approaching the resumption interval (470) - increasing resumption interval to 471
+0440.398 (0) Googledrive chunked upload: 91.2 % uploaded (285212672)
+0441.463 (0) The time we have been running (441.4) is approaching the resumption interval (471) - increasing resumption interval to 472
+0441.466 (0) Googledrive chunked upload: 91.5 % uploaded (286261248)
+0442.557 (0) The time we have been running (442.5) is approaching the resumption interval (472) - increasing resumption interval to 473
+0442.560 (0) Googledrive chunked upload: 91.9 % uploaded (287309824)
+0443.658 (0) The time we have been running (443.6) is approaching the resumption interval (473) - increasing resumption interval to 474
+0443.661 (0) Googledrive chunked upload: 92.2 % uploaded (288358400)
+0444.719 (0) The time we have been running (444.7) is approaching the resumption interval (474) - increasing resumption interval to 475
+0444.724 (0) Googledrive chunked upload: 92.6 % uploaded (289406976)
+0445.835 (0) The time we have been running (445.8) is approaching the resumption interval (475) - increasing resumption interval to 476
+0445.837 (0) Googledrive chunked upload: 92.9 % uploaded (290455552)
+0446.889 (0) The time we have been running (446.8) is approaching the resumption interval (476) - increasing resumption interval to 477
+0446.892 (0) Googledrive chunked upload: 93.2 % uploaded (291504128)
+0447.946 (0) The time we have been running (447.9) is approaching the resumption interval (477) - increasing resumption interval to 478
+0447.948 (0) Googledrive chunked upload: 93.6 % uploaded (292552704)
+0449.044 (0) The time we have been running (449) is approaching the resumption interval (478) - increasing resumption interval to 479
+0449.047 (0) Googledrive chunked upload: 93.9 % uploaded (293601280)
+0450.171 (0) The time we have been running (450.1) is approaching the resumption interval (479) - increasing resumption interval to 481
+0450.173 (0) Googledrive chunked upload: 94.2 % uploaded (294649856)
+0451.242 (0) The time we have been running (451.2) is approaching the resumption interval (481) - increasing resumption interval to 482
+0451.243 (0) Googledrive chunked upload: 94.6 % uploaded (295698432)
+0452.340 (0) The time we have been running (452.3) is approaching the resumption interval (482) - increasing resumption interval to 483
+0452.342 (0) Googledrive chunked upload: 94.9 % uploaded (296747008)
+0453.434 (0) The time we have been running (453.4) is approaching the resumption interval (483) - increasing resumption interval to 484
+0453.436 (0) Googledrive chunked upload: 95.2 % uploaded (297795584)
+0454.514 (0) The time we have been running (454.5) is approaching the resumption interval (484) - increasing resumption interval to 485
+0454.516 (0) Googledrive chunked upload: 95.6 % uploaded (298844160)
+0455.622 (0) The time we have been running (455.6) is approaching the resumption interval (485) - increasing resumption interval to 486
+0455.625 (0) Googledrive chunked upload: 95.9 % uploaded (299892736)
+0456.672 (0) The time we have been running (456.6) is approaching the resumption interval (486) - increasing resumption interval to 487
+0456.674 (0) Googledrive chunked upload: 96.2 % uploaded (300941312)
+0457.711 (0) The time we have been running (457.7) is approaching the resumption interval (487) - increasing resumption interval to 488
+0457.713 (0) Googledrive chunked upload: 96.6 % uploaded (301989888)
+0458.834 (0) The time we have been running (458.8) is approaching the resumption interval (488) - increasing resumption interval to 489
+0458.836 (0) Googledrive chunked upload: 96.9 % uploaded (303038464)
+0459.887 (0) The time we have been running (459.8) is approaching the resumption interval (489) - increasing resumption interval to 490
+0459.890 (0) Googledrive chunked upload: 97.2 % uploaded (304087040)
+0461.093 (0) The time we have been running (461) is approaching the resumption interval (490) - increasing resumption interval to 492
+0461.096 (0) Googledrive chunked upload: 97.6 % uploaded (305135616)
+0462.200 (0) The time we have been running (462.1) is approaching the resumption interval (492) - increasing resumption interval to 493
+0462.202 (0) Googledrive chunked upload: 97.9 % uploaded (306184192)
+0463.258 (0) The time we have been running (463.2) is approaching the resumption interval (493) - increasing resumption interval to 494
+0463.260 (0) Googledrive chunked upload: 98.3 % uploaded (307232768)
+0464.313 (0) The time we have been running (464.3) is approaching the resumption interval (494) - increasing resumption interval to 495
+0464.316 (0) Googledrive chunked upload: 98.6 % uploaded (308281344)
+0465.482 (0) The time we have been running (465.4) is approaching the resumption interval (495) - increasing resumption interval to 496
+0465.485 (0) Googledrive chunked upload: 98.9 % uploaded (309329920)
+0466.640 (0) The time we have been running (466.6) is approaching the resumption interval (496) - increasing resumption interval to 497
+0466.643 (0) Googledrive chunked upload: 99.3 % uploaded (310378496)
+0467.715 (0) The time we have been running (467.7) is approaching the resumption interval (497) - increasing resumption interval to 498
+0467.718 (0) Googledrive chunked upload: 99.6 % uploaded (311427072)
+0468.854 (0) The time we have been running (468.8) is approaching the resumption interval (498) - increasing resumption interval to 499
+0468.856 (0) Googledrive chunked upload: 99.9 % uploaded (312475648)
+0471.193 (0) The time we have been running (471.1) is approaching the resumption interval (499) - increasing resumption interval to 502
+0471.195 (0) Googledrive chunked upload: 100 % uploaded (312475648)
+0471.199 (0) OK: Archive backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip uploaded to Google Drive in 287.57 seconds
+0471.201 (0) Recording as successfully uploaded: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip (373373fb7fb615a1aa8c24670df7b2c7)
+0471.307 (0) Deleting local file: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-plugins.zip: OK
+0471.736 (0) Google Drive quota usage: used=1266.9 Mb, total=15360 Mb, available=14093.1 Mb
+0471.738 (0) backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-themes.zip: Attempting to upload to Google Drive (into folder id: 0B0aSZwNLjO5WUF9HMllWOUU4dFU)
+0473.206 (0) The time we have been running (473.2) is approaching the resumption interval (502) - increasing resumption interval to 504
+0473.209 (0) Googledrive chunked upload: 58.8 % uploaded (1048576)
+0474.869 (0) The time we have been running (474.8) is approaching the resumption interval (504) - increasing resumption interval to 505
+0474.872 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0474.875 (0) OK: Archive backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-themes.zip uploaded to Google Drive in 3.14 seconds
+0474.878 (0) Recording as successfully uploaded: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-themes.zip (55f5a5be0d511add33726dbc344e4684)
+0474.883 (0) Deleting local file: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-themes.zip: OK
+0475.402 (0) Google Drive quota usage: used=1268.6 Mb, total=15360 Mb, available=14091.4 Mb
+0475.404 (0) backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-uploads.zip: Attempting to upload to Google Drive (into folder id: 0B0aSZwNLjO5WUF9HMllWOUU4dFU)
+0476.881 (0) The time we have been running (476.8) is approaching the resumption interval (505) - increasing resumption interval to 507
+0476.885 (0) Googledrive chunked upload: 1.3 % uploaded (1048576)
+0477.941 (0) The time we have been running (477.9) is approaching the resumption interval (507) - increasing resumption interval to 508
+0477.944 (0) Googledrive chunked upload: 2.5 % uploaded (2097152)
+0479.185 (0) The time we have been running (479.1) is approaching the resumption interval (508) - increasing resumption interval to 510
+0479.188 (0) Googledrive chunked upload: 3.8 % uploaded (3145728)
+0480.263 (0) The time we have been running (480.2) is approaching the resumption interval (510) - increasing resumption interval to 511
+0480.267 (0) Googledrive chunked upload: 5.1 % uploaded (4194304)
+0481.262 (0) The time we have been running (481.2) is approaching the resumption interval (511) - increasing resumption interval to 512
+0481.265 (0) Googledrive chunked upload: 6.3 % uploaded (5242880)
+0482.415 (0) The time we have been running (482.4) is approaching the resumption interval (512) - increasing resumption interval to 513
+0482.418 (0) Googledrive chunked upload: 7.6 % uploaded (6291456)
+0483.574 (0) The time we have been running (483.5) is approaching the resumption interval (513) - increasing resumption interval to 514
+0483.576 (0) Googledrive chunked upload: 8.8 % uploaded (7340032)
+0484.539 (0) The time we have been running (484.5) is approaching the resumption interval (514) - increasing resumption interval to 515
+0484.542 (0) Googledrive chunked upload: 10.1 % uploaded (8388608)
+0485.669 (0) The time we have been running (485.6) is approaching the resumption interval (515) - increasing resumption interval to 516
+0485.672 (0) Googledrive chunked upload: 11.4 % uploaded (9437184)
+0487.036 (0) The time we have been running (487) is approaching the resumption interval (516) - increasing resumption interval to 517
+0487.039 (0) Googledrive chunked upload: 12.6 % uploaded (10485760)
+0487.983 (0) The time we have been running (487.9) is approaching the resumption interval (517) - increasing resumption interval to 518
+0487.984 (0) Googledrive chunked upload: 13.9 % uploaded (11534336)
+0488.969 (0) The time we have been running (488.9) is approaching the resumption interval (518) - increasing resumption interval to 519
+0488.974 (0) Googledrive chunked upload: 15.2 % uploaded (12582912)
+0489.915 (0) The time we have been running (489.9) is approaching the resumption interval (519) - increasing resumption interval to 520
+0489.918 (0) Googledrive chunked upload: 16.4 % uploaded (13631488)
+0490.929 (0) The time we have been running (490.9) is approaching the resumption interval (520) - increasing resumption interval to 521
+0490.931 (0) Googledrive chunked upload: 17.7 % uploaded (14680064)
+0491.919 (0) The time we have been running (491.9) is approaching the resumption interval (521) - increasing resumption interval to 522
+0491.921 (0) Googledrive chunked upload: 18.9 % uploaded (15728640)
+0492.837 (0) The time we have been running (492.8) is approaching the resumption interval (522) - increasing resumption interval to 523
+0492.839 (0) Googledrive chunked upload: 20.2 % uploaded (16777216)
+0493.801 (0) The time we have been running (493.7) is approaching the resumption interval (523) - increasing resumption interval to 524
+0493.804 (0) Googledrive chunked upload: 21.5 % uploaded (17825792)
+0494.852 (0) The time we have been running (494.8) is approaching the resumption interval (524) - increasing resumption interval to 525
+0494.853 (0) Googledrive chunked upload: 22.7 % uploaded (18874368)
+0495.741 (0) The time we have been running (495.7) is approaching the resumption interval (525) - increasing resumption interval to 526
+0495.742 (0) Googledrive chunked upload: 24 % uploaded (19922944)
+0496.737 (0) The time we have been running (496.7) is approaching the resumption interval (526) - increasing resumption interval to 527
+0496.740 (0) Googledrive chunked upload: 25.3 % uploaded (20971520)
+0497.682 (0) The time we have been running (497.6) is approaching the resumption interval (527) - increasing resumption interval to 528
+0497.685 (0) Googledrive chunked upload: 26.5 % uploaded (22020096)
+0498.572 (0) The time we have been running (498.5) is approaching the resumption interval (528) - increasing resumption interval to 529
+0498.575 (0) Googledrive chunked upload: 27.8 % uploaded (23068672)
+0499.542 (0) The time we have been running (499.5) is approaching the resumption interval (529) - increasing resumption interval to 530
+0499.544 (0) Googledrive chunked upload: 29 % uploaded (24117248)
+0500.442 (0) The time we have been running (500.4) is approaching the resumption interval (530) - increasing resumption interval to 531
+0500.444 (0) Googledrive chunked upload: 30.3 % uploaded (25165824)
+0501.450 (0) The time we have been running (501.4) is approaching the resumption interval (531) - increasing resumption interval to 532
+0501.452 (0) Googledrive chunked upload: 31.6 % uploaded (26214400)
+0502.313 (0) The time we have been running (502.3) is approaching the resumption interval (532) - increasing resumption interval to 533
+0502.316 (0) Googledrive chunked upload: 32.8 % uploaded (27262976)
+0503.369 (0) The time we have been running (503.3) is approaching the resumption interval (533) - increasing resumption interval to 534
+0503.371 (0) Googledrive chunked upload: 34.1 % uploaded (28311552)
+0504.319 (0) The time we have been running (504.3) is approaching the resumption interval (534) - increasing resumption interval to 535
+0504.321 (0) Googledrive chunked upload: 35.4 % uploaded (29360128)
+0505.240 (0) The time we have been running (505.2) is approaching the resumption interval (535) - increasing resumption interval to 536
+0505.243 (0) Googledrive chunked upload: 36.6 % uploaded (30408704)
+0506.214 (0) The time we have been running (506.2) is approaching the resumption interval (536) - increasing resumption interval to 537
+0506.216 (0) Googledrive chunked upload: 37.9 % uploaded (31457280)
+0507.197 (0) The time we have been running (507.1) is approaching the resumption interval (537) - increasing resumption interval to 538
+0507.199 (0) Googledrive chunked upload: 39.2 % uploaded (32505856)
+0508.271 (0) The time we have been running (508.2) is approaching the resumption interval (538) - increasing resumption interval to 539
+0508.274 (0) Googledrive chunked upload: 40.4 % uploaded (33554432)
+0509.192 (0) The time we have been running (509.1) is approaching the resumption interval (539) - increasing resumption interval to 540
+0509.195 (0) Googledrive chunked upload: 41.7 % uploaded (34603008)
+0510.107 (0) The time we have been running (510.1) is approaching the resumption interval (540) - increasing resumption interval to 541
+0510.111 (0) Googledrive chunked upload: 42.9 % uploaded (35651584)
+0511.083 (0) The time we have been running (511) is approaching the resumption interval (541) - increasing resumption interval to 542
+0511.085 (0) Googledrive chunked upload: 44.2 % uploaded (36700160)
+0512.025 (0) Googledrive chunked upload: 45.5 % uploaded (37748736)
+0512.958 (0) The time we have been running (512.9) is approaching the resumption interval (542) - increasing resumption interval to 543
+0512.960 (0) Googledrive chunked upload: 46.7 % uploaded (38797312)
+0513.833 (0) The time we have been running (513.8) is approaching the resumption interval (543) - increasing resumption interval to 544
+0513.836 (0) Googledrive chunked upload: 48 % uploaded (39845888)
+0514.745 (0) The time we have been running (514.7) is approaching the resumption interval (544) - increasing resumption interval to 545
+0514.747 (0) Googledrive chunked upload: 49.3 % uploaded (40894464)
+0515.901 (0) The time we have been running (515.8) is approaching the resumption interval (545) - increasing resumption interval to 546
+0515.910 (0) Googledrive chunked upload: 50.5 % uploaded (41943040)
+0516.923 (0) The time we have been running (516.9) is approaching the resumption interval (546) - increasing resumption interval to 547
+0516.925 (0) Googledrive chunked upload: 51.8 % uploaded (42991616)
+0517.876 (0) The time we have been running (517.8) is approaching the resumption interval (547) - increasing resumption interval to 548
+0517.878 (0) Googledrive chunked upload: 53 % uploaded (44040192)
+0518.798 (0) The time we have been running (518.7) is approaching the resumption interval (548) - increasing resumption interval to 549
+0518.799 (0) Googledrive chunked upload: 54.3 % uploaded (45088768)
+0519.738 (0) The time we have been running (519.7) is approaching the resumption interval (549) - increasing resumption interval to 550
+0519.740 (0) Googledrive chunked upload: 55.6 % uploaded (46137344)
+0520.706 (0) The time we have been running (520.7) is approaching the resumption interval (550) - increasing resumption interval to 551
+0520.709 (0) Googledrive chunked upload: 56.8 % uploaded (47185920)
+0521.676 (0) The time we have been running (521.6) is approaching the resumption interval (551) - increasing resumption interval to 552
+0521.678 (0) Googledrive chunked upload: 58.1 % uploaded (48234496)
+0522.699 (0) The time we have been running (522.6) is approaching the resumption interval (552) - increasing resumption interval to 553
+0522.701 (0) Googledrive chunked upload: 59.4 % uploaded (49283072)
+0523.589 (0) The time we have been running (523.5) is approaching the resumption interval (553) - increasing resumption interval to 554
+0523.592 (0) Googledrive chunked upload: 60.6 % uploaded (50331648)
+0524.548 (0) The time we have been running (524.5) is approaching the resumption interval (554) - increasing resumption interval to 555
+0524.551 (0) Googledrive chunked upload: 61.9 % uploaded (51380224)
+0525.471 (0) The time we have been running (525.4) is approaching the resumption interval (555) - increasing resumption interval to 556
+0525.473 (0) Googledrive chunked upload: 63.1 % uploaded (52428800)
+0526.391 (0) The time we have been running (526.3) is approaching the resumption interval (556) - increasing resumption interval to 557
+0526.393 (0) Googledrive chunked upload: 64.4 % uploaded (53477376)
+0527.333 (0) The time we have been running (527.3) is approaching the resumption interval (557) - increasing resumption interval to 558
+0527.335 (0) Googledrive chunked upload: 65.7 % uploaded (54525952)
+0528.231 (0) The time we have been running (528.2) is approaching the resumption interval (558) - increasing resumption interval to 559
+0528.233 (0) Googledrive chunked upload: 66.9 % uploaded (55574528)
+0529.142 (0) The time we have been running (529.1) is approaching the resumption interval (559) - increasing resumption interval to 560
+0529.144 (0) Googledrive chunked upload: 68.2 % uploaded (56623104)
+0529.994 (0) Googledrive chunked upload: 69.5 % uploaded (57671680)
+0530.934 (0) The time we have been running (530.9) is approaching the resumption interval (560) - increasing resumption interval to 561
+0530.936 (0) Googledrive chunked upload: 70.7 % uploaded (58720256)
+0531.821 (0) The time we have been running (531.8) is approaching the resumption interval (561) - increasing resumption interval to 562
+0531.824 (0) Googledrive chunked upload: 72 % uploaded (59768832)
+0532.710 (0) The time we have been running (532.7) is approaching the resumption interval (562) - increasing resumption interval to 563
+0532.712 (0) Googledrive chunked upload: 73.3 % uploaded (60817408)
+0533.663 (0) The time we have been running (533.6) is approaching the resumption interval (563) - increasing resumption interval to 564
+0533.665 (0) Googledrive chunked upload: 74.5 % uploaded (61865984)
+0534.500 (0) The time we have been running (534.4) is approaching the resumption interval (564) - increasing resumption interval to 565
+0534.502 (0) Googledrive chunked upload: 75.8 % uploaded (62914560)
+0535.398 (0) The time we have been running (535.3) is approaching the resumption interval (565) - increasing resumption interval to 566
+0535.401 (0) Googledrive chunked upload: 77 % uploaded (63963136)
+0536.303 (0) The time we have been running (536.2) is approaching the resumption interval (566) - increasing resumption interval to 567
+0536.305 (0) Googledrive chunked upload: 78.3 % uploaded (65011712)
+0537.189 (0) The time we have been running (537.1) is approaching the resumption interval (567) - increasing resumption interval to 568
+0537.191 (0) Googledrive chunked upload: 79.6 % uploaded (66060288)
+0538.144 (0) The time we have been running (538.1) is approaching the resumption interval (568) - increasing resumption interval to 569
+0538.146 (0) Googledrive chunked upload: 80.8 % uploaded (67108864)
+0539.114 (0) The time we have been running (539.1) is approaching the resumption interval (569) - increasing resumption interval to 570
+0539.116 (0) Googledrive chunked upload: 82.1 % uploaded (68157440)
+0539.939 (0) Googledrive chunked upload: 83.4 % uploaded (69206016)
+0540.847 (0) The time we have been running (540.8) is approaching the resumption interval (570) - increasing resumption interval to 571
+0540.849 (0) Googledrive chunked upload: 84.6 % uploaded (70254592)
+0541.743 (0) The time we have been running (541.7) is approaching the resumption interval (571) - increasing resumption interval to 572
+0541.746 (0) Googledrive chunked upload: 85.9 % uploaded (71303168)
+0542.625 (0) The time we have been running (542.6) is approaching the resumption interval (572) - increasing resumption interval to 573
+0542.627 (0) Googledrive chunked upload: 87.1 % uploaded (72351744)
+0543.529 (0) The time we have been running (543.5) is approaching the resumption interval (573) - increasing resumption interval to 574
+0543.531 (0) Googledrive chunked upload: 88.4 % uploaded (73400320)
+0544.442 (0) The time we have been running (544.4) is approaching the resumption interval (574) - increasing resumption interval to 575
+0544.444 (0) Googledrive chunked upload: 89.7 % uploaded (74448896)
+0545.336 (0) The time we have been running (545.3) is approaching the resumption interval (575) - increasing resumption interval to 576
+0545.337 (0) Googledrive chunked upload: 90.9 % uploaded (75497472)
+0546.299 (0) The time we have been running (546.2) is approaching the resumption interval (576) - increasing resumption interval to 577
+0546.301 (0) Googledrive chunked upload: 92.2 % uploaded (76546048)
+0547.240 (0) The time we have been running (547.2) is approaching the resumption interval (577) - increasing resumption interval to 578
+0547.241 (0) Googledrive chunked upload: 93.5 % uploaded (77594624)
+0548.143 (0) The time we have been running (548.1) is approaching the resumption interval (578) - increasing resumption interval to 579
+0548.145 (0) Googledrive chunked upload: 94.7 % uploaded (78643200)
+0548.968 (0) Googledrive chunked upload: 96 % uploaded (79691776)
+0549.945 (0) The time we have been running (549.9) is approaching the resumption interval (579) - increasing resumption interval to 580
+0549.947 (0) Googledrive chunked upload: 97.2 % uploaded (80740352)
+0550.871 (0) The time we have been running (550.8) is approaching the resumption interval (580) - increasing resumption interval to 581
+0550.874 (0) Googledrive chunked upload: 98.5 % uploaded (81788928)
+0551.827 (0) The time we have been running (551.8) is approaching the resumption interval (581) - increasing resumption interval to 582
+0551.829 (0) Googledrive chunked upload: 99.8 % uploaded (82837504)
+0553.086 (0) The time we have been running (553) is approaching the resumption interval (582) - increasing resumption interval to 584
+0553.088 (0) Googledrive chunked upload: 100 % uploaded (82837504)
+0553.091 (0) OK: Archive backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-uploads.zip uploaded to Google Drive in 77.69 seconds
+0553.093 (0) Recording as successfully uploaded: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-uploads.zip (fa3066ca5c257c9eb9deba2cfeb7092e)
+0553.143 (0) Deleting local file: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-uploads.zip: OK
+0553.537 (0) Google Drive quota usage: used=1347.8 Mb, total=15360 Mb, available=14012.2 Mb
+0553.538 (0) backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-others.zip: Attempting to upload to Google Drive (into folder id: 0B0aSZwNLjO5WUF9HMllWOUU4dFU)
+0555.028 (0) The time we have been running (555) is approaching the resumption interval (584) - increasing resumption interval to 585
+0555.031 (0) Googledrive chunked upload: 100 % uploaded
+0555.034 (0) OK: Archive backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-others.zip uploaded to Google Drive in 1.5 seconds
+0555.037 (0) Recording as successfully uploaded: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-others.zip (1f9674afabc2402ae56225167b862dfd)
+0555.041 (0) Deleting local file: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-others.zip: OK
+0555.439 (0) Google Drive quota usage: used=1347.9 Mb, total=15360 Mb, available=14012.1 Mb
+0555.440 (0) backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-db.gz: Attempting to upload to Google Drive (into folder id: 0B0aSZwNLjO5WUF9HMllWOUU4dFU)
+0557.303 (0) The time we have been running (557.2) is approaching the resumption interval (585) - increasing resumption interval to 588
+0557.305 (0) The scheduled resumption is within 45 seconds - will reschedule
+0557.309 (0) Rescheduling resumption 1: moving to 633 seconds from now (1434194904)
+0557.314 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 588 + 45 = 633
+0557.315 (0) Googledrive chunked upload: 100 % uploaded
+0557.317 (0) OK: Archive backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-db.gz uploaded to Google Drive in 1.88 seconds
+0557.319 (0) Recording as successfully uploaded: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-db.gz (26275c5a01b465b6324ee17dc5fdcfe9)
+0557.322 (0) Deleting local file: backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-db.gz: OK
+0557.325 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0557.326 (0) Number of backup sets in history: 3
+0557.328 (0) Examining backup set with datestamp: 1434193714 (Jun 13 2015 11:08:34)
+0557.329 (0) 1434193714: db: this set includes a database (backup_2015-06-13-1308_Do_Arty_Stuff_f042cbc5129e-db.gz); db count is now 1
+0557.790 (0) 1434193714: this backup set remains non-empty (1/1); will retain in history
+0557.790 (0) Examining backup set with datestamp: 1434107509 (Jun 12 2015 11:11:49)
+0557.791 (0) 1434107509: db: this set includes a database (backup_2015-06-12-1311_Do_Arty_Stuff_add970c1969a-db.gz); db count is now 2
+0558.172 (0) 1434107509: this backup set remains non-empty (1/1); will retain in history
+0558.174 (0) Examining backup set with datestamp: 1434021097 (Jun 11 2015 11:11:37)
+0558.175 (0) 1434021097: db: this set includes a database (backup_2015-06-11-1311_Do_Arty_Stuff_3bf70f11799a-db.gz); db count is now 3
+0558.177 (0) 1434021097: db: over retain limit (2); will delete this database
+0558.178 (0) Delete file: backup_2015-06-11-1311_Do_Arty_Stuff_3bf70f11799a-db.gz, service=googledrive
+0559.014 (0) backup_2015-06-11-1311_Do_Arty_Stuff_3bf70f11799a-db.gz: Deletion successful
+0559.016 (0) plugins: 1434021097: over retain limit (2); will delete this file (backup_2015-06-11-1311_Do_Arty_Stuff_3bf70f11799a-plugins.zip)
+0559.017 (0) themes: 1434021097: over retain limit (2); will delete this file (backup_2015-06-11-1311_Do_Arty_Stuff_3bf70f11799a-themes.zip)
+0559.018 (0) uploads: 1434021097: over retain limit (2); will delete this file (backup_2015-06-11-1311_Do_Arty_Stuff_3bf70f11799a-uploads.zip)
+0559.019 (0) others: 1434021097: over retain limit (2); will delete this file (backup_2015-06-11-1311_Do_Arty_Stuff_3bf70f11799a-others.zip)
+0559.020 (0) Delete file: backup_2015-06-11-1311_Do_Arty_Stuff_3bf70f11799a-plugins.zip, service=googledrive
+0559.021 (0) Delete file: backup_2015-06-11-1311_Do_Arty_Stuff_3bf70f11799a-themes.zip, service=googledrive
+0559.022 (0) Delete file: backup_2015-06-11-1311_Do_Arty_Stuff_3bf70f11799a-uploads.zip, service=googledrive
+0559.022 (0) Delete file: backup_2015-06-11-1311_Do_Arty_Stuff_3bf70f11799a-others.zip, service=googledrive
+0559.811 (0) backup_2015-06-11-1311_Do_Arty_Stuff_3bf70f11799a-others.zip: Deletion successful
+0560.248 (0) backup_2015-06-11-1311_Do_Arty_Stuff_3bf70f11799a-uploads.zip: Deletion successful
+0560.706 (0) backup_2015-06-11-1311_Do_Arty_Stuff_3bf70f11799a-themes.zip: Deletion successful
+0561.143 (0) backup_2015-06-11-1311_Do_Arty_Stuff_3bf70f11799a-plugins.zip: Deletion successful
+0561.146 (0) 1434021097: this backup set is now empty; will remove from history
+0561.147 (0) 1434021097: deleting log file (log.3bf70f11799a.txt)
+0561.286 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0561.289 (0) Resume backup (f042cbc5129e, 0): finish run
+0561.291 (0) Decremented the semaphore (fd) by 1
+0561.292 (0) Semaphore (fd) unlocked
+0561.294 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0561.302 (0) The backup apparently succeeded and is now complete
+0561.304 (0) No email will/can be sent - the user has not configured an email address.
+0561.305 (0) El respaldo parece haber tenido éxito y ahora está completado

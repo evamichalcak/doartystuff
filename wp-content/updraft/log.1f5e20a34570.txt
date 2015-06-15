@@ -1,0 +1,8 @@
+0000.006 () Opened log file at time: Tue, 11 Nov 2014 09:00:45 +0000 on http://www.doartystuff.com
+0000.007 () UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.26 WP: 3.9.2 PHP: 5.2.17 (Linux box657.bluehost.com 3.12.26.1406932904 #1 SMP Fri Aug 1 17:44:58 CDT 2014 x86_64) MySQL: 5.5.40-36.1-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 70.2M | 70.5M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.266 () Free space on disk containing Updraft's temporary directory: 135475.9 Mb
+0000.267 () Restore job started. Entities to restore: plugins, themes
+0000.309 () Error message: Hay carpetas sin borrar de una restauración previa (por favor, usa el botón "Eliminar directorios antiguos" para eliminarlos antes de probar de nuevo): /home4/playlabo/public_html/doartystuff/wp-content/plugins-old
+0000.310 () Restore failed...
+0000.310 () Error message: Hay carpetas sin borrar de una restauración previa (por favor, usa el botón "Eliminar directorios antiguos" para eliminarlos antes de probar de nuevo): /home4/playlabo/public_html/doartystuff/wp-content/plugins-old
+0000.310 () Restore failed

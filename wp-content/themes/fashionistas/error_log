@@ -1,0 +1,1 @@
+[07-Mar-2015 13:28:53] PHP Fatal error:  Call to undefined function get_header() in /home4/playlabo/public_html/doartystuff/wp-content/themes/fashionistas/404.php on line 8

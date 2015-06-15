@@ -1,0 +1,26 @@
+0000.098 () Opened log file at time: Fri, 10 Oct 2014 13:41:54 +0000 on http://www.doartystuff.com
+0000.099 () UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.26 WP: 3.9.2 PHP: 5.2.17 (Linux box657.bluehost.com 3.12.26.1406932904 #1 SMP Fri Aug 1 17:44:58 CDT 2014 x86_64) MySQL: 5.5.38-35.2-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 63.6M | 64M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.518 () Free space on disk containing Updraft's temporary directory: 143568.1 Mb
+0000.518 () Restore job started. Entities to restore: plugins, themes, others
+0000.655 () Entity: plugins
+0000.655 () restore_backup(backup_file=backup_2014-10-10-1112_Do_Arty_Stuff_cada2872d559-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:58:"/home4/playlabo/public_html/doartystuff/wp-content/plugins";s:11:"description";s:18:"Plugins (/plugins)";}, last_one=)
+0000.655 () Descomprimiendo el respaldo... (backup_2014-10-10-1112_Do_Arty_Stuff_cada2872d559-plugins.zip, 17.2 Mb)
+0002.763 () Moving old data: filesystem method / updraft_dir is potentially possible
+0002.763 () Moving old data: can potentially use wp_filesystem method / -old
+0002.763 () Quitando de en medio los datos antiguos...
+0008.219 () Moviendo el respaldo desempaquetado a su lugar...
+0011.454 () Limpiando basura...
+0011.455 () Entity: themes
+0011.455 () restore_backup(backup_file=backup_2014-10-10-1112_Do_Arty_Stuff_cada2872d559-themes.zip, type=themes, info=a:2:{s:4:"path";s:57:"/home4/playlabo/public_html/doartystuff/wp-content/themes";s:11:"description";s:15:"Temas (/themes)";}, last_one=)
+0011.455 () Descomprimiendo el respaldo... (backup_2014-10-10-1112_Do_Arty_Stuff_cada2872d559-themes.zip, 1.7 Mb)
+0011.545 () Moving old data: filesystem method / updraft_dir is potentially possible
+0011.545 () Moving old data: can potentially use wp_filesystem method / -old
+0011.545 () Quitando de en medio los datos antiguos...
+0012.436 () Moviendo el respaldo desempaquetado a su lugar...
+0012.620 () Limpiando basura...
+0012.620 () Entity: others
+0012.621 () restore_backup(backup_file=backup_2014-10-10-1112_Do_Arty_Stuff_cada2872d559-others.zip, type=others, info=a:2:{s:4:"path";s:50:"/home4/playlabo/public_html/doartystuff/wp-content";s:11:"description";s:5:"Otros";}, last_one=1)
+0012.621 () Descomprimiendo el respaldo... (backup_2014-10-10-1112_Do_Arty_Stuff_cada2872d559-others.zip, 0.1 Mb)
+0012.826 () Limpiando basura...
+0012.929 () Restore successful!
+0012.929 () Restore successful
